@@ -1,0 +1,2274 @@
+INFO:     Started server process [1311]
+INFO:     Waiting for application startup.
+INFO:main:EVI Backend opstarten...
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (5 leveranciers)
+INFO:main:EVI Backend klaar!
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     94.110.89.88:55186 - "GET /docs HTTP/1.1" 200 OK
+INFO:     94.110.89.88:55186 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     94.110.89.88:36156 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:36166 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:36166 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:36178 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:36178 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:42676 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:42676 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1311]
+INFO:     Started server process [1539]
+INFO:     Waiting for application startup.
+INFO:main:EVI Backend opstarten...
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (5 leveranciers)
+INFO:main:EVI Backend klaar!
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1539]
+INFO:     Started server process [1564]
+INFO:     Waiting for application startup.
+INFO:main:EVI Backend opstarten...
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (5 leveranciers)
+INFO:main:EVI Backend klaar!
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     94.110.89.88:55311 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:55312 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:55382 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59864 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59862 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:59866 - "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:59867 - "GET /apple-touch-icon.png HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:59868 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60772 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60810 - "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60812 - "GET /apple-touch-icon.png HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60813 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60866 - "GET /contract/jouw-contract-id HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60916 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61051 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     85.217.140.7:44092 - "GET / HTTP/1.1" 200 OK
+INFO:     94.109.49.179:19813 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.109.49.179:19877 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.109.49.179:19765 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:41498 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:41508 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:41508 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:41514 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:41514 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:63434 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:63435 - "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:63436 - "GET /apple-touch-icon.png HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:63437 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:47332 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:47332 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:32862 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:32862 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:41050 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:41050 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:41050 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:41060 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:41060 - "GET /zip/3680 HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     204.76.203.224:6659 - "CONNECT proxy2.proxiesfood.com%3A443 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     204.76.203.226:5569 - "CONNECT proxy2.proxiesfood.com%3A443 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     209.222.101.194:45860 - "GET / HTTP/1.1" 200 OK
+INFO:     209.222.101.194:45868 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45884 - "GET /api/version HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45892 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45900 - "GET /queue/status HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45908 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:35782 - "GET /.well-known/mcp.json HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:35786 - "GET /.well-known/agent.json HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     104.243.35.104:44474 - "GET / HTTP/1.1" 200 OK
+INFO:     104.243.35.104:44482 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     104.243.35.104:44484 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     104.243.35.104:44496 - "GET /api/version HTTP/1.1" 404 Not Found
+INFO:     104.243.35.104:44512 - "GET /queue/status HTTP/1.1" 404 Not Found
+INFO:     104.243.35.104:44520 - "GET /metrics HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     104.243.32.126:38546 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     104.243.32.126:38560 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     104.243.32.126:38564 - "GET /api/version HTTP/1.1" 404 Not Found
+INFO:     104.243.32.126:38572 - "GET /queue/status HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     104.243.32.126:38582 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     104.243.32.126:38596 - "GET /.well-known/mcp.json HTTP/1.1" 404 Not Found
+INFO:     185.150.191.236:47760 - "GET / HTTP/1.1" 200 OK
+INFO:     185.150.191.236:47772 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     185.150.191.236:47780 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     104.243.32.126:38604 - "GET /.well-known/agent.json HTTP/1.1" 404 Not Found
+INFO:     104.243.32.126:38608 - "GET / HTTP/1.1" 200 OK
+INFO:     185.150.191.236:47790 - "GET /api/version HTTP/1.1" 404 Not Found
+INFO:     185.150.191.236:44216 - "GET /queue/status HTTP/1.1" 404 Not Found
+INFO:     185.150.191.236:44220 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     104.243.35.92:45590 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     104.243.35.92:45600 - "GET /.well-known/mcp.json HTTP/1.1" 404 Not Found
+INFO:     104.243.35.92:45614 - "GET /.well-known/agent.json HTTP/1.1" 404 Not Found
+INFO:     104.243.35.92:45628 - "GET / HTTP/1.1" 200 OK
+INFO:     104.243.35.104:48322 - "GET /.well-known/mcp.json HTTP/1.1" 404 Not Found
+INFO:     104.243.35.104:48332 - "GET /.well-known/agent.json HTTP/1.1" 404 Not Found
+INFO:     185.150.191.236:44230 - "GET /.well-known/mcp.json HTTP/1.1" 404 Not Found
+INFO:     185.150.191.236:44234 - "GET /.well-known/agent.json HTTP/1.1" 404 Not Found
+INFO:     104.243.35.92:45636 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     104.243.35.92:45644 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     104.243.35.92:45648 - "GET /api/version HTTP/1.1" 404 Not Found
+INFO:     104.243.35.92:45650 - "GET /queue/status HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     104.243.35.94:43180 - "GET / HTTP/1.1" 200 OK
+INFO:     104.243.35.94:43192 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     104.243.35.94:43194 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     104.243.35.94:43210 - "GET /api/version HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     104.243.35.94:43214 - "GET /queue/status HTTP/1.1" 404 Not Found
+INFO:     104.243.35.94:43224 - "GET /metrics HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     104.243.35.94:43238 - "GET /.well-known/mcp.json HTTP/1.1" 404 Not Found
+INFO:     104.243.35.94:43246 - "GET /.well-known/agent.json HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     209.222.101.194:36694 - "GET / HTTP/1.1" 200 OK
+INFO:     209.222.101.194:36720 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:36728 - "GET /queue/status HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:36742 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:36678 - "GET /.well-known/agent.json HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:36708 - "GET /api/version HTTP/1.1" 404 Not Found
+INFO:     104.243.35.104:47384 - "GET / HTTP/1.1" 200 OK
+INFO:     104.243.35.104:47400 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     104.243.35.104:47414 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     104.243.35.104:47420 - "GET /api/version HTTP/1.1" 404 Not Found
+INFO:     104.243.35.104:47428 - "GET /queue/status HTTP/1.1" 404 Not Found
+INFO:     104.243.35.104:47442 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:36750 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:36758 - "GET /.well-known/mcp.json HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     185.150.191.236:41308 - "GET / HTTP/1.1" 200 OK
+INFO:     185.150.191.236:41318 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     185.150.191.236:41326 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     185.150.191.236:41328 - "GET /api/version HTTP/1.1" 404 Not Found
+INFO:     185.150.191.236:41344 - "GET /queue/status HTTP/1.1" 404 Not Found
+INFO:     185.150.191.236:41346 - "GET /metrics HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     104.243.35.94:40358 - "GET / HTTP/1.1" 200 OK
+INFO:     104.243.35.94:40360 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     104.243.35.94:40376 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     104.243.35.94:40378 - "GET /api/version HTTP/1.1" 404 Not Found
+INFO:     104.243.35.94:40394 - "GET /queue/status HTTP/1.1" 404 Not Found
+INFO:     104.243.35.94:40406 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:36762 - "GET / HTTP/1.1" 200 OK
+INFO:     185.150.191.236:41350 - "GET /.well-known/mcp.json HTTP/1.1" 404 Not Found
+INFO:     185.150.191.236:41358 - "GET /.well-known/agent.json HTTP/1.1" 404 Not Found
+INFO:     104.243.35.94:40422 - "GET /.well-known/agent.json HTTP/1.1" 404 Not Found
+INFO:     104.243.35.94:40418 - "GET /.well-known/mcp.json HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:36784 - "GET /openapi.yaml HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:36766 - "GET /docs HTTP/1.1" 200 OK
+INFO:     209.222.101.194:36768 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     209.222.101.194:52542 - "GET /swagger.json HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52556 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:36762 - "GET /health HTTP/1.1" 200 OK
+INFO:     209.222.101.194:52574 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52578 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52588 - "GET /queue/status HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52568 - "GET /api/health HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52600 - "GET /api/status HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52556 - "GET /api/system HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:36762 - "GET /api/v1/auth HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52542 - "GET /.well-known/mcp.json HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:36766 - "GET /.well-known/agent.json HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:36768 - "GET /tools HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52590 - "GET /debug/vars HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:36784 - "GET /api/tools HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52568 - "GET /api/flows HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52574 - "GET /server_info HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52578 - "GET /output_schema HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52588 - "GET /graphql HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52600 - "GET /api/v1/info HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52556 - "GET /env HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:36762 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52542 - "GET /.env.local HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:36766 - "GET /.env.production HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:36768 - "GET /env.js HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52590 - "GET /_debug HTTP/1.1" 404 Not Found
+INFO:     104.243.35.104:51910 - "GET /.well-known/mcp.json HTTP/1.1" 404 Not Found
+INFO:     104.243.35.104:51924 - "GET /.well-known/agent.json HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     209.222.101.194:45420 - "GET /invoke HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45388 - "GET /api/v1/tools HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45418 - "GET /input_schema HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45396 - "GET /api/v1/version HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45390 - "GET /rest/workflows HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45410 - "GET /api/v1/flows HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:39556 - "GET /api/traces HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:39588 - "GET /api/workflows HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:39578 - "GET /api/agents HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:39594 - "GET /tools/list HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:39570 - "GET /api/runs HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:39602 - "GET /resources/list HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     209.222.101.194:45420 - "GET /api/v1/heartbeat HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45418 - "GET /v1/meta HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45396 - "GET /health/liveliness HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45390 - "GET /ui HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45410 - "GET /v1/schema HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     185.150.191.236:49114 - "GET / HTTP/1.1" 200 OK
+INFO:     185.150.191.236:49124 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     185.150.191.236:49132 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     185.150.191.236:49140 - "GET /api/version HTTP/1.1" 404 Not Found
+INFO:     185.150.191.236:49156 - "GET /queue/status HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:47048 - "GET /api/profile HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:47054 - "GET /console/api/setup HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:47042 - "GET /console/api/version HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:47062 - "GET /api/v1/collections HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:47058 - "GET /console/api/system-features HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:47066 - "GET /v1/nodes HTTP/1.1" 404 Not Found
+INFO:     185.150.191.236:49172 - "GET /metrics HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     185.150.191.236:49184 - "GET /.well-known/mcp.json HTTP/1.1" 404 Not Found
+INFO:     185.150.191.236:49200 - "GET /.well-known/agent.json HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:47082 - "GET /api/v1/public-chatflows HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:47096 - "GET /api/v1/chatflows HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:47098 - "GET /api/v1/version HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:47108 - "GET /api/trpc/public.checkUpdate HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:47122 - "GET /rest/settings HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:47126 - "GET /api/gallery HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44150 - "GET /api/version/ HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44156 - "GET /user/login/ HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44166 - "GET /api/models HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44176 - "GET /sign HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44148 - "GET /api/common/system/getInitData HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44150 - "GET /api/conversations HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44156 - "GET /api/v1/pieces HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44166 - "GET /api/options/config HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44176 - "GET /sdapi/v1/sd-models HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44148 - "GET /internal/sysinfo HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44174 - "GET /.well-known/serviceinfo HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44166 - "GET /ap/v1/agent/tasks HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44198 - "GET /static/agui.html HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44180 - "GET /api/v1/flags HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44188 - "GET /.well-known/agent-ui.json HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44226 - "GET /chat HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44210 - "GET /agent HTTP/1.1" 404 Not Found
+INFO:     104.243.35.120:36260 - "GET / HTTP/1.1" 200 OK
+INFO:     104.243.35.120:36272 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     104.243.35.120:36276 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     104.243.35.120:36292 - "GET /api/version HTTP/1.1" 404 Not Found
+INFO:     104.243.35.120:36302 - "GET /queue/status HTTP/1.1" 404 Not Found
+INFO:     104.243.35.120:36306 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44150 - "GET /agent/tasks HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44176 - "GET /api/agent HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44148 - "GET /api/chain HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44174 - "GET /api/sessions HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44156 - "GET /v1/playground HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44166 - "GET /redoc HTTP/1.1" 200 OK
+INFO:     209.222.101.194:44180 - "GET /api/chat HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44188 - "GET /_next/data HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44198 - "GET /models HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44226 - "GET /api/providers HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:50480 - "GET /api/generate HTTP/1.1" 404 Not Found
+INFO:     104.243.35.120:36322 - "GET /.well-known/mcp.json HTTP/1.1" 404 Not Found
+INFO:     104.243.35.120:36326 - "GET /.well-known/agent.json HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:38226 - "GET /extract HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:38238 - "GET /api/recommend HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:38220 - "GET /classify HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:38242 - "GET /api/search HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:38224 - "GET /api/extract HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:38254 - "GET /api/query HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:38274 - "GET /playground HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:38316 - "GET /pipelines HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:38260 - "GET /api/documents HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:38286 - "GET /workflows HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:38302 - "GET /api/pipelines HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:38242 - "GET /api/v1/executions HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:38238 - "GET /api/webhooks HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:38226 - "GET /api/v1/master HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:38254 - "GET /automation HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:38224 - "GET /api/projects HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:38220 - "GET /api/v1/health HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:38318 - "GET /api/v1/workspace HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:57608 - "GET /api/agent/tasks HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:57638 - "GET /api/v1/me HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:57650 - "GET /openai/deployments?api-version=2024-02-01 HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:57620 - "GET /api/v1/bots HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:57664 - "GET /openai/models?api-version=2024-02-01 HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:57632 - "GET /api/trpc HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:57638 - "GET /info HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:57608 - "GET /v1/messages HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:57670 - "GET /api/task HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:57666 - "GET /status HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:57684 - "GET /api/predict HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:57690 - "GET /api/v1/models HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:57692 - "GET /_chainlit/config HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:57638 - "GET /api/v2.20/server.info HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:57664 - "GET /api/v2.13/server.info HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:57650 - "GET /play HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:57620 - "GET /?query=SELECT+1 HTTP/1.1" 200 OK
+INFO:     209.222.101.194:57632 - "GET /ping HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:35506 - "GET /health-check HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:35516 - "GET /api/experiment HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:58872 - "GET /api/v2/server/about HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:58892 - "GET /v1/engines HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:58866 - "GET /api/server/about HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:58852 - "GET /api/tasks HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:58876 - "GET /api/manage/connector HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:58900 - "GET /api/manage/document-set HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:35516 - "GET /info/main/logs.html HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:35506 - "GET /state HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:58942 - "GET /api/v1/experiments HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:58928 - "GET /api/test-runs HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:58912 - "GET /api/v1/workers HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:58920 - "GET /api/v1/checks HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34734 - "GET /_ml/trained_models HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34784 - "GET /console/api/workspaces/current/tool-providers HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34754 - "GET /api/parameters HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34788 - "GET /_cat/indices HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34768 - "GET /api/v1/inference HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34742 - "GET /_cluster/settings HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34734 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34784 - "GET /get-online-features HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34754 - "GET /v1/completions HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34768 - "GET /feature-service HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34788 - "GET /feature_store.yaml HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34792 - "GET /v1/internal/model/info HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34734 - "GET /api/v1/projects HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34754 - "GET /console HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:46572 - "GET /api/v1/nodes HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:46574 - "GET /v1/images/generations HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:46546 - "GET /v1/chat/completions HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:46556 - "GET /v1/scrape HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:46636 - "GET /api/datasources HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:46620 - "GET /api HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:46582 - "GET /v1/collections HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:46606 - "GET /api/health/ready HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:46594 - "GET /api/dashboard/cluster HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:46588 - "GET /api/v2/testing HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44966 - "GET /documents HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44972 - "GET /query HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44986 - "GET /v1/log/request HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44954 - "GET /guards HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44976 - "GET /v1/request HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44950 - "GET /api/search?query=ai HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43942 - "GET /api/v1/conversation HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43974 - "GET /api/v1/app/version HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43970 - "GET /hub/api HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43960 - "GET /lab HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43958 - "GET /api/kernelspecs HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43936 - "GET /api/v1/app/config HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43958 - "GET /ai HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43970 - "GET /ai/models HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43960 - "GET /.well-known/kong HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43994 - "GET /api/v1/model HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44002 - "GET /api/extra/version HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44018 - "GET /api/v1/info/version HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43936 - "GET /v2 HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43942 - "GET /pipeline/apis/v2beta1/pipelines HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43974 - "GET /api/v1/namespaces HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43958 - "GET /v2/models HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43960 - "GET /swagger/ HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43970 - "GET /apis HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44002 - "GET /v1/embeddings HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43994 - "GET /api/v1/table HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43990 - "GET /api/config/types HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44032 - "GET /apis/kubeflow.org HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45454 - "GET /api/v1/sessions HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45490 - "GET /zuqu3 HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45486 - "GET /analyze/prompt HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45516 - "GET /slots HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45502 - "GET /languages HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45478 - "GET /v1/health HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:53366 - "GET /v1/chat/interactive HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45502 - "GET /indexes HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45486 - "GET /api/mcp HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:53382 - "GET /lmstudio/diagnostics HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:53392 - "GET /manifest.json HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:53406 - "GET /api/kernel/status HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:53412 - "GET /api/home HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45478 - "GET /messages/ HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:53366 - "GET /mj/submit/imagine HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:53430 - "GET /v1/vector/collections HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:53422 - "GET /mj/task/list HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45478 - "GET /minio/health/live HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:53366 - "GET /api/2.0/mlflow/registered-models/list HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:60422 - "GET /debug/dump_engine_metrics HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45478 - "GET /models/ HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:60438 - "GET /api/2.0/mlflow/experiments/list HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:53366 - "GET /data/ HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:60462 - "GET /weights/ HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:60450 - "GET /weights HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:60464 - "GET /data HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45478 - "GET /checkpoints HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:60438 - "GET /storage HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:60472 - "GET /files HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:60486 - "GET /files/ HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:60496 - "GET /downloads HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33382 - "GET /api/v1/credentials HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33408 - "GET /db/data/ HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33416 - "GET /db/manage/server/version HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33424 - "GET /api/backend/v1/version HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33420 - "GET /api/db/connect HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33392 - "GET /v1/rails/configs HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33432 - "GET /api/v1/predict HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33430 - "GET /api/leaderboard/v1/attributes/search HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33424 - "GET /api/channel HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33392 - "GET /run HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44990 - "GET /api/ps HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45006 - "GET /api/show HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33430 - "GET /v3/api-docs HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45014 - "GET /api/voices HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:45020 - "GET /v1/assistants HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33424 - "GET /api-docs HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33392 - "GET /api/export-auth HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34184 - "GET /web/login HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34186 - "GET /_cluster/health HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34206 - "GET /api/v1/config HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34216 - "GET /GeneralModelService/inference HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34236 - "GET /api/v1/orgs HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34194 - "GET /api/v1/functions HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34184 - "GET /v1/chunks HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34222 - "GET /v1/ingest HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34254 - "GET /public/ HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34246 - "GET /api/v1/versions HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34206 - "GET /api/v1/label/__name__/values HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34216 - "GET /api/results HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34186 - "GET /api/v1/query?query=ai_request_count HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34246 - "GET /api/v1/ HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34268 - "GET /api/v1/participants HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34290 - "GET /telemetry HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34274 - "GET /qanything HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34254 - "GET /api/brain HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34206 - "GET /v1/api/datasets HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34206 - "GET /redfish/v1/Systems HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33864 - "GET /redfish/v1/Systems/System.Embedded.1 HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33862 - "GET /redfish/v1/Systems/1 HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33880 - "GET /redfish/v1/ HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:34206 - "GET /redfish/v1/Systems/1/Processors HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33892 - "GET /redfish/v1/Systems/Self HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33900 - "GET /redfish/v1/Chassis HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52754 - "GET /module/list HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52756 - "GET /model/registry HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52764 - "GET /infer HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52780 - "GET /sdapi/v1/cmd-flags HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33900 - "GET /sdapi/v1/memory HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33892 - "GET /api/skills HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52754 - "GET /get_server_args HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52806 - "GET /api/settings/get HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33900 - "GET /slurm/v0.0.39/ping HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52798 - "GET /api/v1/services HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52792 - "GET /get_model_info HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52818 - "GET /api/deployments HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52806 - "GET /slurm/v0.0.41/ping HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52754 - "GET /slurm/v0.0.40/ping HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33900 - "GET /runs HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52792 - "GET /api/v1/dialog HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52798 - "GET /api/translate HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52818 - "GET /_stcore/health HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:58180 - "GET /slurm/v0.0.40/diag HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:58196 - "GET /slurm/v0.0.40/nodes HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33900 - "GET /_stcore/host-config HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:58190 - "GET /slurm/v0.0.40/jobs HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52792 - "GET /api-description HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:58204 - "GET /_stcore/stream HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:58198 - "GET /v1/models/metadata HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:58202 - "GET /api/v1/chat HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:58208 - "GET /data/plugins/listing HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52798 - "GET /api/score HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:33900 - "GET /api/v1/screen HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52792 - "GET /search HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:58190 - "GET /predict HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:52792 - "GET /ApplicationStatus HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43818 - "GET /search/ HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43852 - "GET /v1/.well-known/live HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43848 - "GET /v1/.well-known/ready HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43822 - "GET /api/v1/viewer HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43838 - "GET /api/v1/system HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44910 - "GET /v1/model_registrations/LLM HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44912 - "GET /ui/ HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:44920 - "GET /studio_speakers HTTP/1.1" 404 Not Found
+INFO:     209.222.101.194:43856 - "GET /inference HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     104.243.35.104:36758 - "GET / HTTP/1.1" 200 OK
+INFO:     104.243.35.104:36760 - "GET /api/tags HTTP/1.1" 404 Not Found
+INFO:     104.243.35.104:36776 - "GET /v1/models HTTP/1.1" 404 Not Found
+INFO:     104.243.35.104:36786 - "GET /api/version HTTP/1.1" 404 Not Found
+INFO:     104.243.35.104:36796 - "GET /queue/status HTTP/1.1" 404 Not Found
+INFO:     104.243.35.104:36810 - "GET /metrics HTTP/1.1" 404 Not Found
+INFO:     104.243.35.104:58120 - "GET /.well-known/mcp.json HTTP/1.1" 404 Not Found
+INFO:     104.243.35.104:58134 - "GET /.well-known/agent.json HTTP/1.1" 404 Not Found
+INFO:     198.235.24.244:60800 - "GET / HTTP/1.1" 200 OK
+INFO:     94.109.24.163:9806 - "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 Not Found
+INFO:     94.109.24.163:9979 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     94.109.24.163:9766 - "GET /apple-touch-icon.png HTTP/1.1" 404 Not Found
+INFO:     94.109.24.163:9953 - "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 Not Found
+INFO:     94.109.24.163:9972 - "GET /apple-touch-icon.png HTTP/1.1" 404 Not Found
+INFO:     94.109.24.163:9899 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     94.110.89.88:39000 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:39000 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:44372 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:44372 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:44372 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:44380 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:44380 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:33406 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:33406 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:45880 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:45880 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:42632 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:42632 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:47924 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:47924 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:47924 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:47928 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:47928 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56146 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56146 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:38534 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:38534 - "GET /zip/3680 HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     3.129.187.38:55370 - "GET / HTTP/1.1" 200 OK
+INFO:     3.129.187.38:45714 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     135.237.126.9:59786 - "GET /v2/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:45852 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:45852 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:45852 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:45866 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:45866 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56901 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56903 - "OPTIONS /zones HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56904 - "OPTIONS /leveranciers HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56902 - "OPTIONS /contracts HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56905 - "OPTIONS /postcodes HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56901 - "GET /zones HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:56903 - "GET /leveranciers HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:56904 - "GET /postcodes HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:56905 - "GET /contracts HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:56906 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56907 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56908 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56909 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56910 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56911 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56912 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56913 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56914 - "GET /contracts HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:56916 - "GET /leveranciers HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:56915 - "GET /zones HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:56917 - "GET /postcodes HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:56920 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56921 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56922 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56923 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56923 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56924 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56925 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56926 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56927 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56928 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56929 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56929 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56930 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56931 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56935 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56936 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56937 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56938 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56939 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56943 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56947 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56949 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56950 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56951 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56951 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56952 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56953 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56954 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56955 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56957 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56958 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56959 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56960 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56961 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56962 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56963 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56964 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56966 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56967 - "GET /health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1564]
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/main.py", line 410, in main
+    run(
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/main.py", line 577, in run
+    server.run()
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/server.py", line 69, in serve
+    await self._serve(sockets)
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/server.py", line 76, in _serve
+    config.load()
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/config.py", line 434, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/repo/evi_backend/app/main.py", line 46, in <module>
+    app.mount("/admin", StaticFiles(directory="app/static", html=True), name="admin")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/starlette/staticfiles.py", line 56, in __init__
+    raise RuntimeError(f"Directory '{directory}' does not exist")
+RuntimeError: Directory 'app/static' does not exist
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/main.py", line 410, in main
+    run(
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/main.py", line 577, in run
+    server.run()
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/server.py", line 69, in serve
+    await self._serve(sockets)
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/server.py", line 76, in _serve
+    config.load()
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/config.py", line 434, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/repo/evi_backend/app/main.py", line 46, in <module>
+    app.mount("/admin", StaticFiles(directory="app/static", html=True), name="admin")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/starlette/staticfiles.py", line 56, in __init__
+    raise RuntimeError(f"Directory '{directory}' does not exist")
+RuntimeError: Directory 'app/static' does not exist
+INFO:     Started server process [28609]
+INFO:     Waiting for application startup.
+INFO:main:EVI Backend opstarten...
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (5 leveranciers)
+INFO:main:EVI Backend klaar!
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     127.0.0.1:56296 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56994 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56997 - "GET /admin HTTP/1.1" 307 Temporary Redirect
+INFO:     94.110.89.88:56997 - "GET /admin/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:56999 - "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:56999 - "GET /apple-touch-icon.png HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:57000 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:57001 - "GET /admin/admin.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:57002 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:57001 - "GET /contracts HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:57004 - "GET /zones HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:57006 - "GET /postcodes HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:57005 - "GET /leveranciers HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:57007 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:57008 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:57010 - "GET /contracts HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:57010 - "GET /zones HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:57010 - "GET /postcodes HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:57010 - "GET /contracts HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:57010 - "GET /zones HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:57010 - "GET /postcodes HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:57010 - "GET /leveranciers HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:57010 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:57011 - "GET /contracts HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:57012 - "GET /zones HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:57013 - "GET /leveranciers HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:57014 - "GET /postcodes HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:57011 - "GET /contracts HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:57015 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:57016 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:57017 - "GET /health HTTP/1.1" 200 OK
+INFO:     37.184.213.164:8714 - "GET /admin/admin.html HTTP/1.1" 200 OK
+INFO:     37.184.213.164:8821 - "GET /contracts HTTP/1.1" 404 Not Found
+INFO:     37.184.213.164:8827 - "GET /postcodes HTTP/1.1" 404 Not Found
+INFO:     37.184.213.164:8759 - "GET /zones HTTP/1.1" 404 Not Found
+INFO:     37.184.213.164:8714 - "GET /health HTTP/1.1" 200 OK
+INFO:     37.184.213.164:8253 - "GET /leveranciers HTTP/1.1" 404 Not Found
+INFO:     37.184.213.164:8821 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     37.184.213.164:8771 - "GET /health HTTP/1.1" 200 OK
+INFO:     37.184.213.164:8397 - "GET /health HTTP/1.1" 200 OK
+INFO:     37.184.213.164:8292 - "GET /health HTTP/1.1" 200 OK
+INFO:     37.184.213.164:8655 - "GET /health HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     94.110.89.88:60398 - "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60400 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60399 - "GET /apple-touch-icon.png HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60418 - "GET /admin/admin.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60417 - "GET /contracts HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60418 - "GET /zones HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60420 - "GET /leveranciers HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60422 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60421 - "GET /postcodes HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60423 - "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60425 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60424 - "GET /apple-touch-icon.png HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60434 - "GET /contracts HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60436 - "GET /contracts HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60437 - "GET /zones HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60438 - "GET /leveranciers HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60439 - "GET /postcodes HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60487 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60487 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60495 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60503 - "GET /health HTTP/1.1" 200 OK
+INFO:     178.104.251.139:51850 - "GET /zip/ HTTP/1.1" 404 Not Found
+INFO:     178.104.251.139:51858 - "GET /leveranciers/ HTTP/1.1" 404 Not Found
+INFO:     178.104.251.139:45248 - "GET /zip/ HTTP/1.1" 404 Not Found
+INFO:     178.104.251.139:34816 - "GET /leveranciers/ HTTP/1.1" 404 Not Found
+INFO:     178.104.251.139:57940 - "GET /leveranciers/ HTTP/1.1" 404 Not Found
+INFO:     178.104.251.139:57946 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     178.104.251.139:57954 - "GET /postcodes/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52785 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52793 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52796 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52797 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52798 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52799 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52800 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52801 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52805 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52806 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52807 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52808 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52809 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52828 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52829 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52830 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52831 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52832 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52833 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52834 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52835 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52836 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52837 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52839 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52840 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52841 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52842 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52843 - "GET /health HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     94.110.89.88:52844 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52845 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52846 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52848 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52849 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52850 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52851 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52852 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52853 - "OPTIONS /contracts HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52854 - "OPTIONS /zones HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52855 - "OPTIONS /leveranciers HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52856 - "OPTIONS /postcodes HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52852 - "GET /zones HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52854 - "GET /leveranciers HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52855 - "GET /contracts HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52853 - "GET /postcodes HTTP/1.1" 404 Not Found
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [28609]
+INFO:     Started server process [30062]
+INFO:     Waiting for application startup.
+INFO:main:EVI Backend opstarten...
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (5 leveranciers)
+INFO:main:EVI Backend klaar!
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     94.110.89.88:52878 - "GET /admin/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52879 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52878 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52880 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52882 - "GET /postcodes/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52881 - "GET /leveranciers/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52883 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52884 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52884 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52886 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52887 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52888 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52890 - "GET /postcodes/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52889 - "GET /leveranciers/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52887 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52891 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60728 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60728 - "GET /admin/admin.html HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60741 - "GET /admin/admin.html HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60741 - "GET /admin/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60741 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60743 - "GET /leveranciers/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60746 - "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60742 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60744 - "GET /postcodes/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60745 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60747 - "GET /apple-touch-icon.png HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60748 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60741 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52892 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52895 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52896 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52897 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52896 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52898 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52899 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52903 - "GET /postcodes/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52903 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52903 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52903 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52903 - "GET /postcodes/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52903 - "GET /leveranciers/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52903 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52905 - "GET /leveranciers/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52905 - "GET /postcodes/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52905 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52905 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60758 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60758 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52906 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60758 - "GET /postcodes/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60758 - "GET /leveranciers/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52907 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52910 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52912 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52913 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52914 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52915 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52916 - "GET /health HTTP/1.1" 200 OK
+INFO:     Started server process [30096]
+INFO:     Waiting for application startup.
+INFO:main:EVI Backend opstarten...
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (5 leveranciers)
+INFO:main:EVI Backend klaar!
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 5001): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     94.110.89.88:52917 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60777 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60777 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60782 - "GET /postcodes/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60780 - "GET /leveranciers/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60781 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60777 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60782 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60781 - "GET /postcodes/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60777 - "GET /admin/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60777 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60782 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60781 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60784 - "GET /postcodes/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60783 - "GET /leveranciers/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60777 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60782 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60781 - "GET /postcodes/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52918 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60787 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52919 - "GET /health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [30062]
+INFO:     Started server process [30111]
+INFO:     Waiting for application startup.
+INFO:main:EVI Backend opstarten...
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (5 leveranciers)
+INFO:main:EVI Backend klaar!
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     94.110.89.88:60788 - "GET /admin/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60788 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60791 - "GET /leveranciers/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60792 - "GET /postcodes/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60790 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60789 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60788 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60791 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60792 - "GET /postcodes/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60790 - "GET /leveranciers/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60788 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60791 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60792 - "GET /admin/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60790 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60792 - "GET /leveranciers/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60791 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60788 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60793 - "GET /postcodes/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60790 - "GET /admin/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60792 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60790 - "GET /postcodes/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60788 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60793 - "GET /leveranciers/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60791 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60792 - "GET /admin/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60792 - "GET /postcodes/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60790 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60791 - "GET /leveranciers/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60793 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60794 - "GET /admin/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60794 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60799 - "GET /admin/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60800 - "GET /admin/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60800 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60805 - "GET /admin/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60806 - "GET /admin/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60806 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60810 - "GET /postcodes/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60809 - "GET /leveranciers/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60807 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60808 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:52921 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60806 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60810 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60809 - "GET /postcodes/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60806 - "GET /leveranciers/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60814 - "GET /postcodes/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60814 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60815 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52922 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60816 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52923 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47490 - "GET /zones/ HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47506 - "GET /leveranciers/ HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47518 - "GET /postcodes/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60817 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52924 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60818 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52926 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52927 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52928 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52929 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52931 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52932 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52933 - "GET /health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [30111]
+INFO:     Started server process [30144]
+INFO:     Waiting for application startup.
+INFO:main:EVI Backend opstarten...
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (5 leveranciers)
+INFO:main:EVI Backend klaar!
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     94.110.89.88:60824 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52935 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60824 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60828 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60826 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60827 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60824 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60828 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60831 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52936 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60832 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60833 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60833 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60834 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52937 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60834 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60835 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60836 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52938 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60838 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52939 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60839 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52940 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60840 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52941 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60841 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52943 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60842 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60843 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52944 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60844 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52945 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60845 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52950 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60846 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60846 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60846 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60848 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60847 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60849 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60850 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52951 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60851 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52952 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60852 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60853 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52953 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60854 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52954 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60855 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52955 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60856 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52956 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60857 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52958 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60858 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52959 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60859 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52960 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60860 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52961 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60861 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52963 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60862 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52964 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60864 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52965 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52966 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52967 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52968 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52969 - "GET /health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [30144]
+INFO:     Started server process [30258]
+INFO:     Waiting for application startup.
+INFO:main:EVI Backend opstarten...
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (5 leveranciers)
+INFO:main:EVI Backend klaar!
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     94.110.89.88:60866 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60866 - "GET /admin/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60866 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60871 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60869 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60872 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60870 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52970 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60878 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60878 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60878 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60879 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52971 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60880 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52972 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60881 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60882 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52973 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52974 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52975 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52976 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52979 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60892 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52981 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60915 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52990 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:52991 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60934 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60935 - "DELETE /contract/BOLT-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60935 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60936 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60937 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60939 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60948 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60951 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60952 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60956 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60957 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60976 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60980 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60982 - "POST /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60982 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60982 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60983 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60984 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60985 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60989 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60993 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60997 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61004 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61010 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61011 - "GET /health HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     94.110.89.88:61015 - "GET /health HTTP/1.1" 200 OK
+INFO:     91.231.89.197:48095 - "GET / HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61019 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61020 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61025 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61029 - "GET /health HTTP/1.1" 200 OK
+INFO:     91.231.89.53:52381 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:61034 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61038 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61047 - "PUT /contract/ HTTP/1.1" 405 Method Not Allowed
+INFO:     94.110.89.88:61047 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61047 - "PUT /contract/ HTTP/1.1" 405 Method Not Allowed
+INFO:     94.110.89.88:52995 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53001 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53004 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53005 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57834 - "PUT /contract/EB-DYN HTTP/1.1" 422 Unprocessable Entity
+INFO:     94.110.89.88:53006 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53007 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53008 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61050 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53009 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53010 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61054 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53011 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53012 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61062 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61067 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61071 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61072 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61073 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61081 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61083 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61087 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61090 - "PUT /contract/ HTTP/1.1" 405 Method Not Allowed
+INFO:     94.110.89.88:61090 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61094 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61099 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61100 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61100 - "GET /contract/FRANK-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53017 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61101 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61101 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53021 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61102 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61103 - "GET /contract/FRANK-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61103 - "PUT /contract/FRANK-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61103 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53032 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53033 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53034 - "GET /health HTTP/1.1" 200 OK
+INFO:     80.82.77.202:46472 - "GET / HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53035 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61116 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61116 - "GET /admin/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61116 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61117 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61119 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61118 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61120 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61121 - "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:61122 - "GET /apple-touch-icon.png HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:61123 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:61116 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61116 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53036 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61124 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53037 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61126 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53038 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61127 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53039 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61131 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61132 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61139 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61146 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61153 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61161 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61162 - "POST /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61162 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61166 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:46798 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:46798 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:46798 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:46810 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:46810 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:42926 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:42926 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61184 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61188 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61207 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61207 - "GET /admin/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61207 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61208 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61210 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61209 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61211 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53041 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61249 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61306 - "GET /prices HTTP/1.1" 307 Temporary Redirect
+INFO:     94.110.89.88:61306 - "GET /prices/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61357 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61361 - "GET /health HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     80.82.77.202:56644 - "GET /aaa9 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     80.82.77.202:56660 - "GET /aab9 HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:61374 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61374 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61374 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61374 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61381 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59794 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59794 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59794 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59808 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59808 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61388 - "GET /health HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [30258]
+INFO:     Started server process [31895]
+INFO:     Waiting for application startup.
+INFO:main:EVI Backend opstarten...
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (6 leveranciers)
+INFO:main:EVI Backend klaar!
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     94.110.89.88:53226 - "GET /admin/admin.html HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:53227 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53227 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53230 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53233 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53231 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53232 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53234 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53234 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53234 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53235 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53236 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53237 - "PUT /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53237 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53238 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53238 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53245 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53246 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53248 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53249 - "PUT /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53249 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53249 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53250 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53251 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53252 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53253 - "GET /health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [31895]
+INFO:     Started server process [31926]
+INFO:     Waiting for application startup.
+INFO:main:EVI Backend opstarten...
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (6 leveranciers)
+INFO:main:EVI Backend klaar!
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     94.110.89.88:53254 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53254 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53257 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53255 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53258 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53256 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53254 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53254 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53254 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53259 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53260 - "PUT /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53260 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53261 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53260 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53262 - "PUT /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53262 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53262 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53262 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53263 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53264 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53265 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53266 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53262 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53262 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53262 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53267 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53268 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53269 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53270 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53271 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53272 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53273 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53274 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53276 - "GET /health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [31926]
+INFO:     Started server process [32020]
+INFO:     Waiting for application startup.
+INFO:main:EVI Backend opstarten...
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (6 leveranciers)
+INFO:main:EVI Backend klaar!
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     94.110.89.88:53277 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53277 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53281 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53279 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53280 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53278 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53277 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53277 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53277 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53282 - "PUT /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53282 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53282 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53283 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53284 - "PUT /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53284 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53284 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53285 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53285 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53288 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53289 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53286 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53287 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53285 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53288 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53286 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53289 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53287 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53285 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53288 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53286 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53289 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53290 - "PUT /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53290 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53290 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53291 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53292 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53293 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53294 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53295 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53296 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53297 - "GET /health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [32020]
+INFO:     Started server process [32080]
+INFO:     Waiting for application startup.
+INFO:main:EVI Backend opstarten...
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (6 leveranciers)
+INFO:main:EVI Backend klaar!
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     94.110.89.88:53298 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53298 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53300 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53299 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53302 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53301 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53298 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53303 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53303 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53304 - "PUT /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53304 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53304 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53304 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53305 - "PUT /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53305 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53305 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:46632 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:46632 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:46632 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:46634 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:46634 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53306 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53307 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53310 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53311 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53312 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53313 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53318 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53325 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53326 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53335 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53347 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59966 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59966 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:47454 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:47454 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:41112 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:41112 - "GET /contract/DYN-ENGIE HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:61603 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:55478 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:55478 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:55478 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:55482 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:55482 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:51412 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:51412 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:51412 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:51420 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:51420 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:57964 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:57964 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:57964 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:57978 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:57978 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:55754 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:55754 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:55754 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:55768 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:55768 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53380 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:41022 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:41022 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:33344 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:33344 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:33344 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:33358 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:33358 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60862 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60862 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:53393 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:34372 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:34372 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:36644 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:36644 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:36644 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:36660 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:36660 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:39556 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:39556 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:39556 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:39558 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:39558 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:37392 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:37392 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:37392 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:37406 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:37406 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61725 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61725 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61725 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61725 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61726 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61727 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:61728 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60736 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60737 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60739 - "GET /admin/index.html HTTP/1.1" 304 Not Modified
+INFO:     94.110.89.88:60740 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60741 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60743 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60744 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60742 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60745 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60746 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60747 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60753 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60767 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60768 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60769 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60772 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60774 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:43692 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:43692 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:43692 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:43704 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:43704 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60785 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60805 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60806 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60806 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60807 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60808 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60809 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60810 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60809 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60811 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60813 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60815 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60816 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60817 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60818 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60819 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60820 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60821 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60822 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60823 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60825 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60824 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60826 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60823 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60823 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60823 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60828 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60828 - "PUT /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60828 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60829 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60830 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60831 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60832 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60833 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60833 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60834 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60835 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60836 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60837 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60839 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60840 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60841 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60842 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60844 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60845 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60846 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60847 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60848 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60849 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60851 - "GET / HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60852 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60853 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60854 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60855 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60856 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60857 - "GET / HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60861 - "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60862 - "GET /apple-touch-icon.png HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60863 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60879 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60882 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60881 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60880 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60883 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60878 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60878 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60878 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60884 - "PUT /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60884 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60884 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60885 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60886 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60888 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60892 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:34536 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:34536 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60893 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60895 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60897 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60898 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60904 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60905 - "GET /health HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     94.110.89.88:60906 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60907 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60908 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60909 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60909 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60909 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60911 - "PUT /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60911 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60911 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60913 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:43258 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:43258 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60914 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60915 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60916 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60917 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:37600 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:37600 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:37600 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:37616 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:37616 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60919 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60920 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60921 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60924 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60926 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60933 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60936 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60938 - "GET /health HTTP/1.1" 200 OK
+INFO:     147.185.132.156:62770 - "GET / HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60939 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60940 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60941 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60942 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60944 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60946 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60947 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:54470 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:54470 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60950 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60955 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60959 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60961 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60965 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60966 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:33692 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:33698 - "GET /contract/DYN-ENGIE HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:60968 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:38478 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:38478 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:38478 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:38482 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:38482 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60970 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60972 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60973 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60975 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:39338 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:39338 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:39766 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:39772 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:39772 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:39774 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:39774 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60984 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60985 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:33708 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:33708 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.109.148.44:4957 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.109.148.44:5001 - "GET /admin/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:5001 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.109.148.44:4876 - "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 Not Found
+INFO:     94.109.148.44:4973 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:5083 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:5101 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:4948 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:4947 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     94.109.148.44:4930 - "GET /apple-touch-icon.png HTTP/1.1" 404 Not Found
+INFO:     94.109.148.44:5032 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:4881 - "GET /contract/ HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     185.93.89.193:27897 - "CONNECT proxy2.proxiesfood.com%3A443 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     185.93.89.191:9477 - "CONNECT proxy2.proxiesfood.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     94.109.148.44:4945 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.109.148.44:5070 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:4867 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:4998 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:4874 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:4952 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:4952 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:4952 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:5011 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.109.148.44:4883 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.109.148.44:5050 - "GET /admin/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:5050 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.109.148.44:4947 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:5085 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:4873 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:4876 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:5118 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.109.148.44:5090 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:5083 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:5083 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.109.148.44:4938 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.109.148.44:5064 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.109.148.44:5020 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:5083 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:5083 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:4900 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.109.148.44:4869 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.109.148.44:4961 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.109.148.44:4935 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.109.223.219:13776 - "GET /health HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     204.76.203.225:11829 - "CONNECT proxy2.proxiesfood.com%3A443 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     204.76.203.225:29787 - "CONNECT proxy2.proxiesfood.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:49158 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:44406 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:44406 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60716 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60716 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60716 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60730 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:60730 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:37488 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:37488 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:37488 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:37492 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:37492 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49263 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:38298 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:38298 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49395 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:51336 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:51336 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:51336 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:51346 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:51346 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:39520 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:39520 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49906 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49922 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49922 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49932 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49932 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59382 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59382 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:43842 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:43850 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:43850 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:43856 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:43856 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:40748 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:40762 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:40762 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:40772 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:40772 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [32080]
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/main.py", line 410, in main
+    run(
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/main.py", line 577, in run
+    server.run()
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/server.py", line 69, in serve
+    await self._serve(sockets)
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/server.py", line 76, in _serve
+    config.load()
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/config.py", line 434, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/importer.py", line 22, in import_from_string
+    raise exc from None
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/repo/evi_backend/app/main.py", line 4, in <module>
+    import httpx
+ModuleNotFoundError: No module named 'httpx'
+INFO:     Started server process [36382]
+INFO:     Waiting for application startup.
+INFO:main:EVI Backend opstarten...
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (6 leveranciers)
+INFO:main:EVI Backend klaar!
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:httpx:HTTP Request: GET https://api-dev.smartenergycontrol.be/resource/day_ahead "HTTP/1.1 200 OK"
+INFO:     178.104.251.139:45672 - "GET /day_ahead?token=4ucYSzv97p7cgB2X8OzyYYaaCtCgTHBk HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49743 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:46506 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:46514 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:46514 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:46522 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:46522 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://api-dev.smartenergycontrol.be/resource/day_ahead "HTTP/1.1 200 OK"
+INFO:     94.110.89.88:46538 - "GET /day_ahead?token=4ucYSzv97p7cgB2X8OzyYYaaCtCgTHBk HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49857 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:48070 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:48070 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:48070 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:48080 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:48080 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://api-dev.smartenergycontrol.be/resource/day_ahead "HTTP/1.1 200 OK"
+INFO:     94.110.89.88:48092 - "GET /day_ahead?token=4ucYSzv97p7cgB2X8OzyYYaaCtCgTHBk HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49869 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49870 - "GET /zip/3680 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49871 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49872 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49874 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49875 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49876 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49878 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49889 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49890 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49891 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49896 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49897 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49901 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49902 - "GET /health HTTP/1.1" 200 OK
+INFO:     178.104.251.139:47292 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     178.104.251.139:52888 - "PUT /contract/ENGIE-DYN HTTP/1.1" 422 Unprocessable Entity
+INFO:     178.104.251.139:60858 - "PUT /contract/ENGIE-DYN HTTP/1.1" 422 Unprocessable Entity
+INFO:     3.131.220.121:34414 - "GET / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     94.110.89.88:49944 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49944 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49945 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49946 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49947 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49944 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49946 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49948 - "PUT /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49948 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49948 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49949 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49950 - "PUT /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49950 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49953 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49981 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:46210 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:46210 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://api-dev.smartenergycontrol.be/resource/day_ahead "HTTP/1.1 200 OK"
+INFO:     94.110.89.88:46212 - "GET /day_ahead?token=4ucYSzv97p7cgB2X8OzyYYaaCtCgTHBk HTTP/1.1" 200 OK
+INFO:     3.131.220.121:46274 - "GET / HTTP/1.1" 200 OK
+INFO:     94.110.89.88:49992 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:50000 - "GET /health HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     94.110.89.88:50003 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:50007 - "GET /health HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     94.110.89.88:50013 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.109.223.219:13650 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.109.223.219:13626 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.109.223.219:13590 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.109.223.219:13711 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.109.223.219:13773 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.109.223.219:13730 - "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 Not Found
+INFO:     94.109.223.219:13808 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     94.109.223.219:13823 - "GET /apple-touch-icon.png HTTP/1.1" 404 Not Found
+INFO:     94.109.223.219:13610 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.109.223.219:13811 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.109.223.219:13811 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.109.223.219:13666 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.109.223.219:13733 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.109.223.219:13690 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.109.223.219:13630 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.109.223.219:13690 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.109.223.219:13766 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:33962 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:33962 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:33962 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:33972 - "GET /contract/EB-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:33972 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://api-dev.smartenergycontrol.be/resource/day_ahead "HTTP/1.1 200 OK"
+INFO:     94.110.89.88:33986 - "GET /day_ahead?token=4ucYSzv97p7cgB2X8OzyYYaaCtCgTHBk HTTP/1.1" 200 OK
+INFO:     94.109.223.219:13581 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.109.223.219:13709 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.109.223.219:13818 - "GET /health HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     94.109.223.219:13574 - "GET /admin/ HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     94.110.89.88:35160 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:35160 - "GET /merged_full/ENGIE-DYN HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:58484 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:58484 - "GET /merged_full/ENGIE-DYN HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:50496 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:50496 - "GET /merged_full/ENGIE-DYN HTTP/1.1" 404 Not Found
+INFO:     178.104.251.139:52680 - "GET /merged_full/ENGIE-DYN HTTP/1.1" 404 Not Found
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [36382]
+INFO:     Started server process [38176]
+INFO:     Waiting for application startup.
+INFO:main:EVI Backend opstarten...
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (6 leveranciers)
+INFO:main:EVI Backend klaar!
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     178.104.251.139:47112 - "GET /merged_full/ENGIE-DYN HTTP/1.1" 404 Not Found
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [38176]
+INFO:     Started server process [38190]
+INFO:     Waiting for application startup.
+INFO:main:EVI Backend opstarten...
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (6 leveranciers)
+INFO:main:EVI Backend klaar!
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     178.104.251.139:37464 - "GET /merged_full/ENGIE-DYN HTTP/1.1" 404 Not Found
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [38190]
+INFO:     Started server process [38205]
+INFO:     Waiting for application startup.
+INFO:main:EVI Backend opstarten...
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (6 leveranciers)
+INFO:main:EVI Backend klaar!
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     178.104.251.139:32976 - "GET /merged_full/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:38488 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:38488 - "GET /merged_full/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59198 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59198 - "GET /merged_full/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59208 - "GET /merged_full/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59208 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59410 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:51066 - "GET /merged_full/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:51066 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56962 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56962 - "GET /merged_full/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56970 - "GET /merged_full/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:56970 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59524 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59528 - "OPTIONS /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59527 - "OPTIONS /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59525 - "OPTIONS /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59526 - "OPTIONS /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59524 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59528 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59527 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59525 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59529 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59534 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59535 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59537 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59536 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59538 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     178.104.251.139:42620 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59556 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59557 - "OPTIONS /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59559 - "OPTIONS /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59558 - "OPTIONS /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59560 - "OPTIONS /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59556 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59557 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59558 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59559 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59567 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59568 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59567 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59571 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59572 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59570 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59573 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59573 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59573 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59574 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59576 - "GET /zip/3600 HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59577 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59576 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59578 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59579 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59580 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59582 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59583 - "GET /health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [38205]
+Traceback (most recent call last):
+  File "/usr/local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/main.py", line 410, in main
+    run(
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/main.py", line 577, in run
+    server.run()
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/server.py", line 69, in serve
+    await self._serve(sockets)
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/server.py", line 76, in _serve
+    config.load()
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/config.py", line 434, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/repo/evi_backend/app/main.py", line 1, in <module>
+    @app.get("/merged_full/{contract_id}")
+     ^^^
+NameError: name 'app' is not defined
+INFO:     Started server process [39113]
+INFO:     Waiting for application startup.
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (6 leveranciers)
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     178.104.251.139:54372 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59643 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59643 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59644 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59646 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59647 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59645 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59648 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59649 - "GET /health HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://epexpredictor.smartenergycontrol.be/prices?hours=-1&fixedPrice=0&taxPercent=0&country=BE&evaluation=true&unit=CT_PER_KWH&timezone=Europe%2FBrussels "HTTP/1.1 200 OK"
+INFO:     94.110.89.88:59650 - "GET /epex_live HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59651 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59652 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59653 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59654 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59655 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59656 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59657 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59658 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59659 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59660 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59661 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59662 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59662 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59663 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59663 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59664 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59665 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59666 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59667 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59668 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59669 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59683 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59684 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59686 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59687 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59688 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59695 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59696 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59698 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59699 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59700 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59701 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59712 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59714 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59720 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59721 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59729 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59738 - "GET /health HTTP/1.1" 200 OK

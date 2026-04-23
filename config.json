@@ -1,0 +1,28 @@
+{
+  "name": "EVI Backend",
+  "description": "Energy Value Integration - lokale backend voor prijsberekening",
+  "version": "1.0.0",
+  "slug": "evi_backend",
+  "init": false,
+  "homeassistant_api": false,
+  "host_network": true,
+  "arch": ["aarch64", "amd64"],
+  "startup": "application",
+  "boot": "auto",
+  "build_from": {
+    "amd64": "homeassistant/amd64-base-python:3.12-alpine3.19",
+    "aarch64": "homeassistant/aarch64-base-python:3.12-alpine3.19"
+  },
+  "options": {
+    "port": 5001,
+    "log_level": "info"
+  },
+  "schema": {
+    "port": "int",
+    "log_level": "list(debug|info|warning|error)"
+  },
+  "ports": {
+    "5001/tcp": 5001
+  },
+  "map": ["share:rw"]
+}

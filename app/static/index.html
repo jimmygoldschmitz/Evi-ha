@@ -1,0 +1,1500 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EVI Admin</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+  :root {
+    --bg: #0a0e1a;
+    --surface: #111827;
+    --surface2: #1a2235;
+    --border: #1e2d45;
+    --accent: #00d4ff;
+    --accent2: #00ff9d;
+    --danger: #ff4757;
+    --warning: #ffa502;
+    --text: #e2e8f0;
+    --text-dim: #64748b;
+    --mono: 'Space Mono', monospace;
+    --sans: 'DM Sans', sans-serif;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    min-height: 100vh;
+  }
+
+  /* HEADER */
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .logo {
+    font-family: var(--mono);
+    font-size: 18px;
+    color: var(--accent);
+    letter-spacing: 2px;
+  }
+
+  .logo span { color: var(--accent2); }
+
+  .status-pill {
+    font-family: var(--mono);
+    font-size: 11px;
+    padding: 4px 12px;
+    border-radius: 20px;
+    border: 1px solid;
+  }
+
+  .status-pill.online { color: var(--accent2); border-color: var(--accent2); background: rgba(0,255,157,0.08); }
+  .status-pill.offline { color: var(--danger); border-color: var(--danger); background: rgba(255,71,87,0.08); }
+
+  /* LAYOUT */
+  .container { display: flex; height: calc(100vh - 57px); }
+
+  /* SIDEBAR */
+  nav {
+    width: 220px;
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    padding: 24px 0;
+    flex-shrink: 0;
+  }
+
+  nav a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 24px;
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s;
+    border-left: 2px solid transparent;
+  }
+
+  nav a:hover { color: var(--text); background: var(--surface2); }
+  nav a.active { color: var(--accent); border-left-color: var(--accent); background: rgba(0,212,255,0.06); }
+
+  nav .section-label {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--text-dim);
+    padding: 16px 24px 6px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+
+  /* MAIN */
+  main {
+    flex: 1;
+    overflow-y: auto;
+    padding: 32px;
+  }
+
+  /* PAGES */
+  .page { display: none; }
+  .page.active { display: block; }
+
+  /* PAGE HEADER */
+  .page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+  }
+
+  .page-title {
+    font-family: var(--mono);
+    font-size: 20px;
+    color: var(--accent);
+  }
+
+  .page-subtitle {
+    font-size: 13px;
+    color: var(--text-dim);
+    margin-top: 4px;
+  }
+
+  /* CARDS */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .card-header {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .card-title {
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--text);
+    letter-spacing: 0.5px;
+  }
+
+  .card-body { padding: 20px; }
+
+  /* GRID */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+  .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+
+  /* STAT CARDS */
+  .stat-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: var(--accent);
+  }
+
+  .stat-card.green::before { background: var(--accent2); }
+  .stat-card.orange::before { background: var(--warning); }
+  .stat-card.red::before { background: var(--danger); }
+
+  .stat-label { font-size: 11px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+  .stat-value { font-family: var(--mono); font-size: 28px; color: var(--text); }
+  .stat-sub { font-size: 12px; color: var(--text-dim); margin-top: 4px; }
+
+  /* TABLE */
+  table { width: 100%; border-collapse: collapse; }
+  th { 
+    font-family: var(--mono); 
+    font-size: 11px; 
+    color: var(--text-dim); 
+    text-align: left; 
+    padding: 10px 16px; 
+    border-bottom: 1px solid var(--border);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  td { 
+    padding: 12px 16px; 
+    font-size: 13px; 
+    border-bottom: 1px solid rgba(30,45,69,0.5);
+  }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: var(--surface2); }
+
+  /* BADGES */
+  .badge {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+  }
+
+  .badge-blue { background: rgba(0,212,255,0.12); color: var(--accent); border: 1px solid rgba(0,212,255,0.2); }
+  .badge-green { background: rgba(0,255,157,0.12); color: var(--accent2); border: 1px solid rgba(0,255,157,0.2); }
+  .badge-orange { background: rgba(255,165,2,0.12); color: var(--warning); border: 1px solid rgba(255,165,2,0.2); }
+  .badge-red { background: rgba(255,71,87,0.12); color: var(--danger); border: 1px solid rgba(255,71,87,0.2); }
+
+  /* BUTTONS */
+  .btn {
+    font-family: var(--mono);
+    font-size: 12px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.15s;
+    letter-spacing: 0.5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .btn-primary { background: var(--accent); color: var(--bg); }
+  .btn-primary:hover { background: #00b8d9; }
+  .btn-secondary { background: var(--surface2); color: var(--text); border: 1px solid var(--border); }
+  .btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
+  .btn-danger { background: rgba(255,71,87,0.15); color: var(--danger); border: 1px solid rgba(255,71,87,0.3); }
+  .btn-danger:hover { background: rgba(255,71,87,0.25); }
+  .btn-sm { padding: 5px 10px; font-size: 11px; }
+
+  /* FORM */
+  .form-group { margin-bottom: 16px; }
+  .form-label { font-size: 12px; color: var(--text-dim); margin-bottom: 6px; display: block; font-family: var(--mono); }
+  .form-control {
+    width: 100%;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 9px 12px;
+    color: var(--text);
+    font-size: 13px;
+    font-family: var(--sans);
+    transition: border-color 0.15s;
+    outline: none;
+  }
+  .form-control:focus { border-color: var(--accent); }
+  .form-control::placeholder { color: var(--text-dim); }
+  select.form-control { cursor: pointer; }
+
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .form-row-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+
+  /* MODAL */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+  }
+  .modal-overlay.open { display: flex; }
+
+  .modal {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    width: 700px;
+    max-height: 85vh;
+    overflow-y: auto;
+  }
+
+  .modal-header {
+    padding: 20px 24px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background: var(--surface);
+  }
+
+  .modal-title { font-family: var(--mono); font-size: 14px; color: var(--accent); }
+  .modal-close { background: none; border: none; color: var(--text-dim); cursor: pointer; font-size: 20px; padding: 4px; }
+  .modal-close:hover { color: var(--text); }
+  .modal-body { padding: 24px; }
+  .modal-footer {
+    padding: 16px 24px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+
+  /* SECTION DIVIDER */
+  .section-divider {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--accent);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 20px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* ALERT */
+  .alert {
+    padding: 12px 16px;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-bottom: 16px;
+  }
+  .alert-info { background: rgba(0,212,255,0.08); border: 1px solid rgba(0,212,255,0.2); color: var(--accent); }
+  .alert-success { background: rgba(0,255,157,0.08); border: 1px solid rgba(0,255,157,0.2); color: var(--accent2); }
+  .alert-error { background: rgba(255,71,87,0.08); border: 1px solid rgba(255,71,87,0.2); color: var(--danger); }
+
+  /* LOADING */
+  .loading { 
+    display: inline-block;
+    width: 16px; height: 16px;
+    border: 2px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* EMPTY STATE */
+  .empty-state {
+    text-align: center;
+    padding: 48px 24px;
+    color: var(--text-dim);
+  }
+  .empty-state .icon { font-size: 40px; margin-bottom: 12px; }
+  .empty-state p { font-size: 14px; }
+
+  /* FORMULA DISPLAY */
+  .formula-code {
+    font-family: var(--mono);
+    font-size: 11px;
+    background: var(--bg);
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    color: var(--accent2);
+    word-break: break-all;
+  }
+
+  /* TOAST */
+  #toast {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .toast-item {
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 13px;
+    animation: slideIn 0.2s ease;
+    min-width: 250px;
+  }
+
+  @keyframes slideIn { from { transform: translateX(100%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+
+  .toast-success { background: #1a2e1a; border: 1px solid var(--accent2); color: var(--accent2); }
+  .toast-error { background: #2e1a1a; border: 1px solid var(--danger); color: var(--danger); }
+  .toast-info { background: #1a2535; border: 1px solid var(--accent); color: var(--accent); }
+
+  /* SCROLLBAR */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">EVI <span>//</span> ADMIN</div>
+  <div style="display:flex;align-items:center;gap:12px;">
+    <span style="font-size:12px;color:var(--text-dim);font-family:var(--mono)" id="backend-url">178.104.251.139:5001</span>
+    <span class="status-pill offline" id="status-pill">● OFFLINE</span>
+  </div>
+</header>
+
+<div class="container">
+  <nav>
+    <div class="section-label">Overzicht</div>
+    <a class="active" onclick="showPage('dashboard')">📊 Dashboard</a>
+    
+    <div class="section-label">Beheer</div>
+    <a onclick="showPage('contracts')">📄 Contracten</a>
+    <a onclick="showPage('zones')">🗺️ Fluvius Zones</a>
+    <a onclick="showPage('postcodes')">📮 Postcodes</a>
+    <a onclick="showPage('leveranciers')">🏢 Leveranciers</a>
+
+    <div class="section-label">Tools</div>
+    <a onclick="showPage('test')">🔬 Prijs testen</a>
+    <a onclick="showPage('settings')">⚙️ Instellingen</a>
+  </nav>
+
+  <main>
+    <div id="toast"></div>
+
+    <!-- DASHBOARD -->
+    <div class="page active" id="page-dashboard">
+      <div class="page-header">
+        <div>
+          <div class="page-title">DASHBOARD</div>
+          <div class="page-subtitle">Overzicht EVI backend status</div>
+        </div>
+        <button class="btn btn-secondary btn-sm" onclick="loadDashboard()">↻ Vernieuwen</button>
+      </div>
+
+      <div class="grid-4" style="margin-bottom:20px">
+        <div class="stat-card">
+          <div class="stat-label">Contracten</div>
+          <div class="stat-value" id="stat-contracts">—</div>
+          <div class="stat-sub">actieve paren</div>
+        </div>
+        <div class="stat-card green">
+          <div class="stat-label">Leveranciers</div>
+          <div class="stat-value" id="stat-leveranciers">—</div>
+          <div class="stat-sub">geregistreerd</div>
+        </div>
+        <div class="stat-card orange">
+          <div class="stat-label">Fluvius Zones</div>
+          <div class="stat-value" id="stat-zones">—</div>
+          <div class="stat-sub">regio's</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Postcodes</div>
+          <div class="stat-value" id="stat-postcodes">—</div>
+          <div class="stat-sub">gekoppeld</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">SNELLE CONTRACTEN LIJST</div>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Naam</th>
+              <th>Leverancier</th>
+              <th>Resolutie</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="dashboard-contracts">
+            <tr><td colspan="5" style="text-align:center;padding:32px;color:var(--text-dim)"><span class="loading"></span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- CONTRACTEN -->
+    <div class="page" id="page-contracts">
+      <div class="page-header">
+        <div>
+          <div class="page-title">CONTRACTEN</div>
+          <div class="page-subtitle">Beheer energie contracten (afname + injectie paren)</div>
+        </div>
+        <button class="btn btn-primary" onclick="openContractModal()">+ Nieuw contract</button>
+      </div>
+
+      <div class="card">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Naam</th>
+              <th>Leverancier</th>
+              <th>Type</th>
+              <th>Formule</th>
+              <th>Resolutie</th>
+              <th>Acties</th>
+            </tr>
+          </thead>
+          <tbody id="contracts-table">
+            <tr><td colspan="7" style="text-align:center;padding:32px;color:var(--text-dim)"><span class="loading"></span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ZONES -->
+    <div class="page" id="page-zones">
+      <div class="page-header">
+        <div>
+          <div class="page-title">FLUVIUS ZONES</div>
+          <div class="page-subtitle">Distributietarieven per regio</div>
+        </div>
+        <button class="btn btn-primary" onclick="openZoneModal()">+ Nieuwe zone</button>
+      </div>
+
+      <div class="card">
+        <table>
+          <thead>
+            <tr>
+              <th>Zone</th>
+              <th>Dist. dag (c€/kWh)</th>
+              <th>Dist. nacht</th>
+              <th>Capaciteitstarief</th>
+              <th>Databeheer</th>
+              <th>Gas dag</th>
+              <th>Acties</th>
+            </tr>
+          </thead>
+          <tbody id="zones-table">
+            <tr><td colspan="7" style="text-align:center;padding:32px;color:var(--text-dim)"><span class="loading"></span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- POSTCODES -->
+    <div class="page" id="page-postcodes">
+      <div class="page-header">
+        <div>
+          <div class="page-title">POSTCODES</div>
+          <div class="page-subtitle">Postcode → Fluvius zone koppeling</div>
+        </div>
+        <div style="display:flex;gap:10px">
+          <input type="text" class="form-control" placeholder="Zoek postcode..." id="postcode-search" style="width:200px" oninput="filterPostcodes()">
+          <button class="btn btn-primary" onclick="openPostcodeModal()">+ Toevoegen</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <table>
+          <thead>
+            <tr>
+              <th>Postcode</th>
+              <th>Gemeente</th>
+              <th>Fluvius Zone</th>
+              <th>Acties</th>
+            </tr>
+          </thead>
+          <tbody id="postcodes-table">
+            <tr><td colspan="4" style="text-align:center;padding:32px;color:var(--text-dim)"><span class="loading"></span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- LEVERANCIERS -->
+    <div class="page" id="page-leveranciers">
+      <div class="page-header">
+        <div>
+          <div class="page-title">LEVERANCIERS</div>
+          <div class="page-subtitle">Energie leveranciers beheren</div>
+        </div>
+        <button class="btn btn-primary" onclick="openLeverancierModal()">+ Nieuw</button>
+      </div>
+
+      <div class="card">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Naam</th>
+              <th>Slug</th>
+              <th>Acties</th>
+            </tr>
+          </thead>
+          <tbody id="leveranciers-table">
+            <tr><td colspan="4" style="text-align:center;padding:32px;color:var(--text-dim)"><span class="loading"></span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- TEST -->
+    <div class="page" id="page-test">
+      <div class="page-header">
+        <div>
+          <div class="page-title">PRIJS TESTEN</div>
+          <div class="page-subtitle">Test berekening voor postcode + contract</div>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-header"><div class="card-title">PARAMETERS</div></div>
+          <div class="card-body">
+            <div class="form-group">
+              <label class="form-label">Postcode</label>
+              <input type="text" class="form-control" id="test-postcode" placeholder="bv. 3680">
+            </div>
+            <div class="form-group">
+              <label class="form-label">Contract ID</label>
+              <input type="text" class="form-control" id="test-contract" placeholder="bv. EB-DYN">
+            </div>
+            <div class="form-group">
+              <label class="form-label">EPEX prijs (ct/kWh)</label>
+              <input type="number" class="form-control" id="test-epex" placeholder="bv. 12.5" step="0.01">
+            </div>
+            <button class="btn btn-primary" onclick="testPrijs()" style="width:100%">Berekenen</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header"><div class="card-title">RESULTAAT</div></div>
+          <div class="card-body" id="test-result">
+            <div class="empty-state">
+              <div class="icon">🔬</div>
+              <p>Voer parameters in en klik op Berekenen</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><div class="card-title">LIVE PRIJZEN (EPEX PREDICTOR)</div></div>
+        <div class="card-body">
+          <div style="display:flex;gap:10px;margin-bottom:16px">
+            <button class="btn btn-secondary btn-sm" onclick="loadLivePrijzen()">↻ Ophalen</button>
+          </div>
+          <div id="live-prijzen">
+            <div class="empty-state"><p>Klik op Ophalen</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SETTINGS -->
+    <div class="page" id="page-settings">
+      <div class="page-header">
+        <div>
+          <div class="page-title">INSTELLINGEN</div>
+          <div class="page-subtitle">Backend configuratie</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><div class="card-title">BACKEND VERBINDING</div></div>
+        <div class="card-body">
+          <div class="form-group">
+            <label class="form-label">Backend URL</label>
+            <input type="text" class="form-control" id="setting-url" value="http://178.104.251.139:5001">
+          </div>
+          <button class="btn btn-primary" onclick="saveSettings()">Opslaan & testen</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><div class="card-title">DATABASE BACKUP</div></div>
+        <div class="card-body">
+          <div class="alert alert-info">Maak een backup via SSH: <code>scp root@178.104.251.139:/data/evi.db ~/Downloads/evi_backup.db</code></div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<!-- MODALS -->
+
+<!-- Contract Modal -->
+<div class="modal-overlay" id="modal-contract">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-title" id="modal-contract-title">NIEUW CONTRACT PAAR</div>
+      <button class="modal-close" onclick="closeModal('modal-contract')">×</button>
+    </div>
+    <div class="modal-body">
+      <div class="section-divider">ALGEMEEN</div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Contract ID *</label>
+          <input type="text" class="form-control" id="c-id" placeholder="bv. EB-DYN">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Naam *</label>
+          <input type="text" class="form-control" id="c-naam" placeholder="bv. Energie.be Dynamisch">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Leverancier *</label>
+          <select class="form-control" id="c-leverancier"></select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Resolutie (min)</label>
+          <select class="form-control" id="c-resolutie">
+            <option value="15">15 min</option>
+            <option value="30">30 min</option>
+            <option value="60">60 min</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="section-divider">AFNAME CONTRACT</div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Afname ID</label>
+          <input type="text" class="form-control" id="c-afname-id" placeholder="bv. EB-DYN-AFN">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Type</label>
+          <select class="form-control" id="c-afname-var-dyn">
+            <option value="Dynamisch">Dynamisch</option>
+            <option value="Variabel">Variabel</option>
+            <option value="Vast">Vast</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row-3">
+        <div class="form-group">
+          <label class="form-label">a (dag)</label>
+          <input type="number" class="form-control" id="c-afname-a" step="0.001" placeholder="0.104">
+        </div>
+        <div class="form-group">
+          <label class="form-label">a (nacht)</label>
+          <input type="number" class="form-control" id="c-afname-a-nacht" step="0.001" placeholder="optioneel">
+        </div>
+        <div class="form-group">
+          <label class="form-label">d (dag)</label>
+          <input type="number" class="form-control" id="c-afname-d" step="0.01" placeholder="0.63">
+        </div>
+      </div>
+      <div class="form-row-3">
+        <div class="form-group">
+          <label class="form-label">GSC</label>
+          <input type="number" class="form-control" id="c-afname-gsc" step="0.01" placeholder="1.11">
+        </div>
+        <div class="form-group">
+          <label class="form-label">WKK</label>
+          <input type="number" class="form-control" id="c-afname-wkk" step="0.01" placeholder="0.39">
+        </div>
+        <div class="form-group">
+          <label class="form-label">V-vergoeding</label>
+          <input type="number" class="form-control" id="c-afname-v" step="0.01" placeholder="33.02">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Formule</label>
+        <input type="text" class="form-control" id="c-afname-formule" placeholder="(contract.a*resources.epex+contract.d+contract.gsc+contract.wkk+contract.bijz_accijns+contract.bijdrage_energie+contract.v_vergoeding_kwh)*1.06">
+        <div style="font-size:11px;color:var(--text-dim);margin-top:4px">Laat leeg voor standaard dynamische formule</div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Handelsnaam</label>
+          <input type="text" class="form-control" id="c-afname-handelsnaam" placeholder="bv. Energie.be">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Productnaam</label>
+          <input type="text" class="form-control" id="c-afname-productnaam" placeholder="bv. Elektriciteit Dynamisch">
+        </div>
+      </div>
+      <div class="section-divider">INJECTIE CONTRACT</div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Injectie ID</label>
+          <input type="text" class="form-control" id="c-injectie-id" placeholder="bv. EB-DYN-INJ">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Type</label>
+          <select class="form-control" id="c-injectie-var-dyn">
+            <option value="Dynamisch">Dynamisch</option>
+            <option value="Variabel">Variabel</option>
+            <option value="Vast">Vast</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row-3">
+        <div class="form-group">
+          <label class="form-label">a (dag)</label>
+          <input type="number" class="form-control" id="c-injectie-a" step="0.001" placeholder="0.1">
+        </div>
+        <div class="form-group">
+          <label class="form-label">d (dag)</label>
+          <input type="number" class="form-control" id="c-injectie-d" step="0.01" placeholder="-0.98">
+        </div>
+        <div class="form-group">
+          <label class="form-label">GSC</label>
+          <input type="number" class="form-control" id="c-injectie-gsc" step="0.01" placeholder="0">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Handelsnaam</label>
+          <input type="text" class="form-control" id="c-injectie-handelsnaam" placeholder="bv. Energie.be">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Productnaam</label>
+          <input type="text" class="form-control" id="c-injectie-productnaam" placeholder="bv. Elektriciteit Teruglevering">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Formule</label>
+        <input type="text" class="form-control" id="c-injectie-formule" placeholder="contract.a*resources.epex+contract.d">
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-secondary" onclick="closeModal('modal-contract')">Annuleren</button>
+      <button class="btn btn-primary" onclick="saveContract()">Opslaan</button>
+    </div>
+  </div>
+</div>
+
+<!-- Zone Modal -->
+<div class="modal-overlay" id="modal-zone">
+  <div class="modal" style="width:500px">
+    <div class="modal-header">
+      <div class="modal-title" id="modal-zone-title">FLUVIUS ZONE</div>
+      <button class="modal-close" onclick="closeModal('modal-zone')">×</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label class="form-label">Zone naam *</label>
+        <input type="text" class="form-control" id="z-naam" placeholder="bv. Fluvius Limburg">
+      </div>
+      <div class="section-divider">ELEKTRICITEIT (c€/kWh)</div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Distributiekost dag *</label>
+          <input type="number" class="form-control" id="z-dag" step="0.001" placeholder="5.48">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Distributiekost nacht *</label>
+          <input type="number" class="form-control" id="z-nacht" step="0.001" placeholder="5.48">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Nacht excl.</label>
+          <input type="number" class="form-control" id="z-nacht-excl" step="0.001" placeholder="3.83">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Capaciteitstarief (€/jaar)</label>
+          <input type="number" class="form-control" id="z-cap" step="0.01" placeholder="64.32">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Databeheer (€/jaar)</label>
+          <input type="number" class="form-control" id="z-data" step="0.01" placeholder="56.56">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Gas distributiekost dag</label>
+          <input type="number" class="form-control" id="z-gas" step="0.001" placeholder="1.94">
+        </div>
+      </div>
+      <input type="hidden" id="z-id">
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-secondary" onclick="closeModal('modal-zone')">Annuleren</button>
+      <button class="btn btn-primary" onclick="saveZone()">Opslaan</button>
+    </div>
+  </div>
+</div>
+
+<!-- Postcode Modal -->
+<div class="modal-overlay" id="modal-postcode">
+  <div class="modal" style="width:420px">
+    <div class="modal-header">
+      <div class="modal-title">POSTCODE TOEVOEGEN</div>
+      <button class="modal-close" onclick="closeModal('modal-postcode')">×</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label class="form-label">Postcode *</label>
+        <input type="text" class="form-control" id="p-postcode" placeholder="bv. 3680">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Gemeente *</label>
+        <input type="text" class="form-control" id="p-gemeente" placeholder="bv. Maaseik">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Fluvius Zone *</label>
+        <select class="form-control" id="p-zone"></select>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-secondary" onclick="closeModal('modal-postcode')">Annuleren</button>
+      <button class="btn btn-primary" onclick="savePostcode()">Opslaan</button>
+    </div>
+  </div>
+</div>
+
+<!-- Leverancier Modal -->
+<div class="modal-overlay" id="modal-leverancier">
+  <div class="modal" style="width:400px">
+    <div class="modal-header">
+      <div class="modal-title">LEVERANCIER</div>
+      <button class="modal-close" onclick="closeModal('modal-leverancier')">×</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label class="form-label">Naam *</label>
+        <input type="text" class="form-control" id="l-naam" placeholder="bv. Energie.be">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Slug *</label>
+        <input type="text" class="form-control" id="l-slug" placeholder="bv. energie-be">
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-secondary" onclick="closeModal('modal-leverancier')">Annuleren</button>
+      <button class="btn btn-primary" onclick="saveLeverancier()">Opslaan</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const DEFAULT_URL = 'http://178.104.251.139:5001';
+let API = localStorage.getItem('evi_api_url') || DEFAULT_URL;
+let zonesCache = [];
+let leveranciersCache = [];
+let postcodesCache = [];
+
+// ── NAVIGATION ──────────────────────────────────────────
+function showPage(page) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+  document.getElementById('page-' + page).classList.add('active');
+  event.currentTarget.classList.add('active');
+  
+  const loaders = { dashboard: loadDashboard, contracts: loadContracts, zones: loadZones, postcodes: loadPostcodes, leveranciers: loadLeveranciers };
+  if (loaders[page]) loaders[page]();
+}
+
+// ── API ──────────────────────────────────────────────────
+async function api(path, method = 'GET', body = null) {
+  const opts = { method, headers: { 'Content-Type': 'application/json' } };
+  if (body) opts.body = JSON.stringify(body);
+  const res = await fetch(API + path, opts);
+  if (!res.ok) throw new Error(`${res.status}: ${await res.text()}`);
+  return res.json();
+}
+
+// ── STATUS ───────────────────────────────────────────────
+async function checkStatus() {
+  try {
+    await fetch(API + '/health');
+    document.getElementById('status-pill').textContent = '● ONLINE';
+    document.getElementById('status-pill').className = 'status-pill online';
+  } catch {
+    document.getElementById('status-pill').textContent = '● OFFLINE';
+    document.getElementById('status-pill').className = 'status-pill offline';
+  }
+}
+
+// ── TOAST ────────────────────────────────────────────────
+function toast(msg, type = 'info') {
+  const el = document.createElement('div');
+  el.className = `toast-item toast-${type}`;
+  el.textContent = msg;
+  document.getElementById('toast').appendChild(el);
+  setTimeout(() => el.remove(), 3000);
+}
+
+// ── MODAL ────────────────────────────────────────────────
+function openModal(id) { document.getElementById(id).classList.add('open'); }
+function closeModal(id) { document.getElementById(id).classList.remove('open'); }
+
+// ── DASHBOARD ────────────────────────────────────────────
+async function loadDashboard() {
+  try {
+    const [contracts, zones, leveranciers, postcodes] = await Promise.all([
+      api("/contract/").catch(() => []),
+      api("/zones/").catch(() => []),
+      api("/leveranciers/").catch(() => []),
+      api("/postcodes/").catch(() => []),
+    ]);
+
+    document.getElementById('stat-contracts').textContent = contracts.length || 0;
+    document.getElementById('stat-zones').textContent = zones.length || 0;
+    document.getElementById('stat-leveranciers').textContent = leveranciers.length || 0;
+    document.getElementById('stat-postcodes').textContent = postcodes.length || 0;
+
+    const tbody = document.getElementById('dashboard-contracts');
+    if (!contracts.length) {
+      tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;padding:32px;color:var(--text-dim)">Geen contracten gevonden</td></tr>';
+      return;
+    }
+    tbody.innerHTML = contracts.map(c => `
+      <tr>
+        <td><span class="badge badge-blue">${c.id}</span></td>
+        <td>${c.naam}</td>
+        <td>${c.leverancier || '—'}</td>
+        <td><span class="badge badge-green">${c.resolution} min</span></td>
+        <td><button class="btn btn-secondary btn-sm" onclick="showPage('contracts')">Bewerken</button></td>
+      </tr>
+    `).join('');
+  } catch (e) {
+    toast('Fout bij laden dashboard', 'error');
+  }
+}
+
+// ── CONTRACTEN ───────────────────────────────────────────
+async function loadContracts() {
+  try {
+    const contracts = await api("/contract/");
+    const tbody = document.getElementById('contracts-table');
+    if (!contracts.length) {
+      tbody.innerHTML = '<tr><td colspan="7"><div class="empty-state"><div class="icon">📄</div><p>Geen contracten</p></div></td></tr>';
+      return;
+    }
+    tbody.innerHTML = contracts.map(c => `
+      <tr>
+        <td><span class="badge badge-blue">${c.id}</span></td>
+        <td style="font-weight:500">${c.naam}</td>
+        <td>${c.leverancier || '—'}</td>
+        <td><span class="badge badge-orange">Dynamisch</span></td>
+        <td style="max-width:200px;overflow:hidden;text-overflow:ellipsis;font-size:11px;color:var(--text-dim)">${c.formule || '—'}</td>
+        <td><span class="badge badge-green">${c.resolution} min</span></td>
+        <td style="white-space:nowrap">
+          <button class="btn btn-secondary btn-sm" onclick="editContract('${c.id}')">✏️</button>
+          <button class="btn btn-danger btn-sm" onclick="deleteContract('${c.id}')">🗑️</button>
+        </td>
+      </tr>
+    `).join('');
+  } catch (e) {
+    document.getElementById('contracts-table').innerHTML = 
+      `<tr><td colspan="7"><div class="alert alert-error">Kon contracten niet laden: ${e.message}</div></td></tr>`;
+  }
+}
+
+async function openContractModal(id = null) {
+  // Laad leveranciers voor dropdown
+  await loadLeveranciersCache();
+  const sel = document.getElementById('c-leverancier');
+  sel.innerHTML = leveranciersCache.map(l => `<option value="${l.id}">${l.naam}</option>`).join('');
+  
+  document.getElementById('modal-contract-title').textContent = id ? 'CONTRACT BEWERKEN' : 'NIEUW CONTRACT PAAR';
+  
+  // Contract ID altijd enabled bij nieuw contract
+  const cidEl = document.getElementById('c-id');
+  if (cidEl) { cidEl.disabled = false; cidEl.style.opacity = '1'; }
+
+  if (!id) {
+    // Reset form
+    ['c-id','c-naam','c-afname-id','c-injectie-id','c-afname-a','c-afname-a-nacht','c-afname-d','c-afname-gsc','c-afname-wkk','c-afname-v','c-afname-formule','c-injectie-a','c-injectie-d','c-injectie-gsc','c-injectie-formule','c-afname-handelsnaam','c-afname-productnaam'].forEach(f => {
+      const el = document.getElementById(f);
+      if (el) el.value = '';
+    });
+  }
+  
+  openModal('modal-contract');
+}
+
+async function editContract(id) {
+  await loadLeveranciersCache();
+  const sel = document.getElementById('c-leverancier');
+  sel.innerHTML = leveranciersCache.map(l => `<option value="${l.id}">${l.naam}</option>`).join('');
+
+  try {
+    const c = await api(`/contract/${id}`);
+    const afname = c.afname || {};
+    const injectie = c.injectie || {};
+    const lev = c.leverancier || {};
+
+    document.getElementById('modal-contract-title').textContent = 'CONTRACT BEWERKEN: ' + id;
+    document.getElementById('c-id').value = c.contract_id || id;
+    document.getElementById('c-id').disabled = true;
+    document.getElementById('c-naam').value = c.naam || '';
+    document.getElementById('c-resolutie').value = c.resolution || 15;
+
+    // Leverancier selecteren
+    if (lev.id) sel.value = lev.id;
+
+    // Afname
+    document.getElementById('c-afname-id').value = afname.id || '';
+    document.getElementById('c-afname-var-dyn').value = afname.var_dyn || 'Dynamisch';
+    document.getElementById('c-afname-a').value = afname.a ?? '';
+    document.getElementById('c-afname-a-nacht').value = afname.a_nacht ?? '';
+    document.getElementById('c-afname-d').value = afname.d ?? '';
+    document.getElementById('c-afname-gsc').value = afname.gsc ?? '';
+    document.getElementById('c-afname-wkk').value = afname.wkk ?? '';
+    document.getElementById('c-afname-v').value = afname.v_vergoeding ?? '';
+    document.getElementById('c-afname-handelsnaam').value = afname.handelsnaam || '';
+    document.getElementById('c-afname-productnaam').value = afname.productnaam || '';
+    document.getElementById('c-afname-formule').value = afname.formule || '';
+
+    // Injectie
+    document.getElementById('c-injectie-id').value = injectie.id || '';
+    document.getElementById('c-injectie-var-dyn').value = injectie.var_dyn || 'Dynamisch';
+    document.getElementById('c-injectie-a').value = injectie.a ?? '';
+    document.getElementById('c-injectie-d').value = injectie.d ?? '';
+    document.getElementById('c-injectie-gsc').value = injectie.gsc ?? '';
+    document.getElementById('c-injectie-handelsnaam').value = injectie.handelsnaam || '';
+    document.getElementById('c-injectie-productnaam').value = injectie.productnaam || '';
+    document.getElementById('c-injectie-formule').value = injectie.formule || '';
+
+    openModal('modal-contract');
+  } catch(e) {
+    toast('Fout bij laden contract: ' + e.message, 'error');
+  }
+}
+
+async function saveContract() {
+  const id = document.getElementById('c-id').value;
+  const isEdit = document.getElementById('c-id').disabled;
+
+  const data = {
+    id: id,
+    naam: document.getElementById('c-naam').value,
+    leverancier_id: parseInt(document.getElementById('c-leverancier').value),
+    resolution: parseInt(document.getElementById('c-resolutie').value),
+    afname: {
+      id: document.getElementById('c-afname-id').value,
+      var_dyn: document.getElementById('c-afname-var-dyn').value,
+      a: parseFloat(document.getElementById('c-afname-a').value) || 0,
+      a_nacht: parseFloat(document.getElementById('c-afname-a-nacht').value) || null,
+      d: parseFloat(document.getElementById('c-afname-d').value) || 0,
+      gsc: parseFloat(document.getElementById('c-afname-gsc').value) || 0,
+      wkk: parseFloat(document.getElementById('c-afname-wkk').value) || 0,
+      v_vergoeding: parseFloat(document.getElementById('c-afname-v').value) || 0,
+      formule: document.getElementById('c-afname-formule').value || null,
+      handelsnaam: document.getElementById('c-afname-handelsnaam').value || '',
+      productnaam: document.getElementById('c-afname-productnaam').value || '',
+    },
+    injectie: {
+      id: document.getElementById('c-injectie-id').value,
+      var_dyn: document.getElementById('c-injectie-var-dyn').value,
+      a: parseFloat(document.getElementById('c-injectie-a').value) || 0,
+      d: parseFloat(document.getElementById('c-injectie-d').value) || 0,
+      gsc: parseFloat(document.getElementById('c-injectie-gsc').value) || 0,
+      formule: document.getElementById('c-injectie-formule').value || null,
+      handelsnaam: document.getElementById('c-injectie-handelsnaam').value || '',
+      productnaam: document.getElementById('c-injectie-productnaam').value || '',
+    }
+  };
+
+  try {
+    if (isEdit) {
+      await api(`/contract/${id}`, 'PUT', data);
+      toast('Contract bijgewerkt!', 'success');
+    } else {
+      await api('/contract/', 'POST', data);
+      toast('Contract aangemaakt!', 'success');
+    }
+    document.getElementById('c-id').disabled = false;
+    closeModal('modal-contract');
+    loadContracts();
+  } catch (e) {
+    toast('Fout: ' + e.message, 'error');
+  }
+}
+
+async function deleteContract(id) {
+  if (!confirm(`Contract ${id} verwijderen?`)) return;
+  try {
+    await api(`/contract/${id}`, 'DELETE');
+    toast('Contract verwijderd', 'success');
+    loadContracts();
+  } catch (e) {
+    toast('Fout: ' + e.message, 'error');
+  }
+}
+
+// ── ZONES ────────────────────────────────────────────────
+async function loadZones() {
+  try {
+    zonesCache = await api("/zones/");
+    const tbody = document.getElementById('zones-table');
+    if (!zonesCache.length) {
+      tbody.innerHTML = '<tr><td colspan="7"><div class="empty-state"><div class="icon">🗺️</div><p>Geen zones</p></div></td></tr>';
+      return;
+    }
+    tbody.innerHTML = zonesCache.map(z => `
+      <tr>
+        <td style="font-weight:500">${z.zone_naam}</td>
+        <td><span class="badge badge-blue">${z.distributiekost_dag}</span></td>
+        <td><span class="badge badge-blue">${z.distributiekost_nacht}</span></td>
+        <td>${z.capaciteitstarief} €/j</td>
+        <td>${z.databeheer} €/j</td>
+        <td>${z.distributiekost_dag_gas}</td>
+        <td style="white-space:nowrap">
+          <button class="btn btn-secondary btn-sm" onclick="editZone(${z.id})">✏️</button>
+        </td>
+      </tr>
+    `).join('');
+  } catch (e) {
+    document.getElementById('zones-table').innerHTML = 
+      `<tr><td colspan="7"><div class="alert alert-error">Fout: ${e.message}</div></td></tr>`;
+  }
+}
+
+function openZoneModal() {
+  ['z-naam','z-dag','z-nacht','z-nacht-excl','z-cap','z-data','z-gas'].forEach(f => {
+    document.getElementById(f).value = '';
+  });
+  document.getElementById('z-id').value = '';
+  document.getElementById('modal-zone-title').textContent = 'NIEUWE ZONE';
+  openModal('modal-zone');
+}
+
+function editZone(id) {
+  const z = zonesCache.find(x => x.id === id);
+  if (!z) return;
+  document.getElementById('z-id').value = z.id;
+  document.getElementById('z-naam').value = z.zone_naam;
+  document.getElementById('z-dag').value = z.distributiekost_dag;
+  document.getElementById('z-nacht').value = z.distributiekost_nacht;
+  document.getElementById('z-nacht-excl').value = z.distributiekost_nacht_excl || '';
+  document.getElementById('z-cap').value = z.capaciteitstarief;
+  document.getElementById('z-data').value = z.databeheer;
+  document.getElementById('z-gas').value = z.distributiekost_dag_gas;
+  document.getElementById('modal-zone-title').textContent = 'ZONE BEWERKEN: ' + z.zone_naam;
+  openModal('modal-zone');
+}
+
+async function saveZone() {
+  const id = document.getElementById('z-id').value;
+  const data = {
+    zone_naam: document.getElementById('z-naam').value,
+    distributiekost_dag: parseFloat(document.getElementById('z-dag').value),
+    distributiekost_nacht: parseFloat(document.getElementById('z-nacht').value),
+    distributiekost_nacht_excl: parseFloat(document.getElementById('z-nacht-excl').value) || null,
+    capaciteitstarief: parseFloat(document.getElementById('z-cap').value) || 0,
+    databeheer: parseFloat(document.getElementById('z-data').value) || 0,
+    distributiekost_dag_gas: parseFloat(document.getElementById('z-gas').value) || 0,
+  };
+  try {
+    if (id) {
+      await api(`/zones/${id}`, 'PUT', data);
+    } else {
+      await api('/zones/', 'POST', data);
+    }
+    toast('Zone opgeslagen!', 'success');
+    closeModal('modal-zone');
+    loadZones();
+  } catch (e) {
+    toast('Fout: ' + e.message, 'error');
+  }
+}
+
+// ── POSTCODES ────────────────────────────────────────────
+async function loadPostcodes() {
+  try {
+    postcodesCache = await api("/postcodes/");
+    renderPostcodes(postcodesCache);
+  } catch (e) {
+    document.getElementById('postcodes-table').innerHTML = 
+      `<tr><td colspan="4"><div class="alert alert-error">Fout: ${e.message}</div></td></tr>`;
+  }
+}
+
+function renderPostcodes(list) {
+  const tbody = document.getElementById('postcodes-table');
+  if (!list.length) {
+    tbody.innerHTML = '<tr><td colspan="4"><div class="empty-state"><div class="icon">📮</div><p>Geen postcodes</p></div></td></tr>';
+    return;
+  }
+  tbody.innerHTML = list.map(p => `
+    <tr>
+      <td><span class="badge badge-blue">${p.postcode}</span></td>
+      <td>${p.gemeente}</td>
+      <td>${p.zone_naam || p.fluvius_zone_id}</td>
+      <td>
+        <button class="btn btn-danger btn-sm" onclick="deletePostcode('${p.postcode}')">🗑️</button>
+      </td>
+    </tr>
+  `).join('');
+}
+
+function filterPostcodes() {
+  const q = document.getElementById('postcode-search').value.toLowerCase();
+  renderPostcodes(postcodesCache.filter(p => 
+    p.postcode.includes(q) || p.gemeente.toLowerCase().includes(q)
+  ));
+}
+
+async function openPostcodeModal() {
+  await loadZonesCache();
+  const sel = document.getElementById('p-zone');
+  sel.innerHTML = zonesCache.map(z => `<option value="${z.id}">${z.zone_naam}</option>`).join('');
+  document.getElementById('p-postcode').value = '';
+  document.getElementById('p-gemeente').value = '';
+  openModal('modal-postcode');
+}
+
+async function savePostcode() {
+  try {
+    await api('/postcodes/', 'POST', {
+      postcode: document.getElementById('p-postcode').value,
+      gemeente: document.getElementById('p-gemeente').value,
+      fluvius_zone_id: parseInt(document.getElementById('p-zone').value),
+    });
+    toast('Postcode opgeslagen!', 'success');
+    closeModal('modal-postcode');
+    loadPostcodes();
+  } catch (e) {
+    toast('Fout: ' + e.message, 'error');
+  }
+}
+
+async function deletePostcode(postcode) {
+  if (!confirm(`Postcode ${postcode} verwijderen?`)) return;
+  try {
+    await api(`/postcodes/${postcode}`, 'DELETE');
+    toast('Postcode verwijderd', 'success');
+    loadPostcodes();
+  } catch (e) {
+    toast('Fout: ' + e.message, 'error');
+  }
+}
+
+// ── LEVERANCIERS ─────────────────────────────────────────
+async function loadLeveranciers() {
+  try {
+    leveranciersCache = await api("/leveranciers/");
+    const tbody = document.getElementById('leveranciers-table');
+    if (!leveranciersCache.length) {
+      tbody.innerHTML = '<tr><td colspan="4"><div class="empty-state"><div class="icon">🏢</div><p>Geen leveranciers</p></div></td></tr>';
+      return;
+    }
+    tbody.innerHTML = leveranciersCache.map(l => `
+      <tr>
+        <td>${l.id}</td>
+        <td style="font-weight:500">${l.naam}</td>
+        <td><span class="badge badge-green">${l.slug}</span></td>
+        <td>
+          <button class="btn btn-danger btn-sm" onclick="deleteLeverancier(${l.id})">🗑️</button>
+        </td>
+      </tr>
+    `).join('');
+  } catch (e) {
+    document.getElementById('leveranciers-table').innerHTML = 
+      `<tr><td colspan="4"><div class="alert alert-error">Fout: ${e.message}</div></td></tr>`;
+  }
+}
+
+function openLeverancierModal() {
+  document.getElementById('l-naam').value = '';
+  document.getElementById('l-slug').value = '';
+  openModal('modal-leverancier');
+}
+
+document.getElementById('l-naam').addEventListener('input', function() {
+  document.getElementById('l-slug').value = this.value.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+});
+
+async function saveLeverancier() {
+  try {
+    await api('/leveranciers/', 'POST', {
+      naam: document.getElementById('l-naam').value,
+      slug: document.getElementById('l-slug').value,
+    });
+    toast('Leverancier opgeslagen!', 'success');
+    closeModal('modal-leverancier');
+    loadLeveranciers();
+  } catch (e) {
+    toast('Fout: ' + e.message, 'error');
+  }
+}
+
+async function deleteLeverancier(id) {
+  if (!confirm('Leverancier verwijderen?')) return;
+  try {
+    await api(`/leveranciers/${id}`, 'DELETE');
+    toast('Verwijderd', 'success');
+    loadLeveranciers();
+  } catch (e) {
+    toast('Fout: ' + e.message, 'error');
+  }
+}
+
+// ── TEST ─────────────────────────────────────────────────
+async function testPrijs() {
+  const postcode = document.getElementById('test-postcode').value;
+  const contract = document.getElementById('test-contract').value;
+  const epex = parseFloat(document.getElementById('test-epex').value);
+  
+  if (!postcode || !contract || isNaN(epex)) {
+    toast('Vul alle velden in', 'error');
+    return;
+  }
+
+  const el = document.getElementById('test-result');
+  el.innerHTML = '<div style="text-align:center"><span class="loading"></span></div>';
+
+  try {
+    const [zipData, contractData] = await Promise.all([
+      api(`/zip/${postcode}`),
+      api(`/contract/${contract}`),
+    ]);
+
+    const afname = contractData.afname || {};
+    const elec = zipData.region_electricity?.elektriciteit || {};
+    
+    const a = afname.a || 0;
+    const d = afname.d || 0;
+    const gsc = afname.gsc || 0;
+    const wkk = afname.wkk || 0;
+    const bijz = 4.748;
+    const bijdrage = 0.1926;
+    const dist = elec.distributiekost_dag || 0;
+    
+    const subtotal = a * epex + d + gsc + wkk + bijz + bijdrage + dist;
+    const allin = subtotal * 1.06 / 100;
+
+    el.innerHTML = `
+      <div class="stat-card" style="margin-bottom:16px">
+        <div class="stat-label">ALL-IN PRIJS</div>
+        <div class="stat-value" style="color:var(--accent)">${allin.toFixed(5)} €/kWh</div>
+        <div class="stat-sub">${(allin * 100).toFixed(3)} ct/kWh</div>
+      </div>
+      <div style="font-size:12px;color:var(--text-dim);font-family:var(--mono);line-height:2">
+        <div>EPEX: ${epex} ct/kWh</div>
+        <div>a × EPEX = ${(a * epex).toFixed(4)}</div>
+        <div>+ d = ${d}</div>
+        <div>+ GSC = ${gsc}</div>
+        <div>+ WKK = ${wkk}</div>
+        <div>+ bijz.accijns = ${bijz}</div>
+        <div>+ bijdrage = ${bijdrage}</div>
+        <div>+ dist (${zipData.municipality}) = ${dist}</div>
+        <div style="border-top:1px solid var(--border);margin-top:8px;padding-top:8px">subtotaal = ${subtotal.toFixed(4)} ct/kWh</div>
+        <div>× 1.06 (BTW) ÷ 100 = <strong style="color:var(--accent2)">${allin.toFixed(5)} €/kWh</strong></div>
+      </div>
+    `;
+  } catch (e) {
+    el.innerHTML = `<div class="alert alert-error">Fout: ${e.message}</div>`;
+  }
+}
+
+async function loadLivePrijzen() {
+  const el = document.getElementById('live-prijzen');
+  el.innerHTML = '<div style="text-align:center"><span class="loading"></span></div>';
+  try {
+    const res = await fetch('http://178.104.251.139:5001/epex_live');
+    const data = await res.json();
+    const prices = (data.prices || []).slice(0, 12);
+    el.innerHTML = `
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px">
+        ${prices.map(p => `
+          <div style="background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:12px">
+            <div style="font-family:var(--mono);font-size:10px;color:var(--text-dim)">${new Date(p.startsAt).toLocaleTimeString('nl', {hour:'2-digit',minute:'2-digit'})}</div>
+            <div style="font-family:var(--mono);font-size:18px;color:${p.total < 10 ? 'var(--accent2)' : p.total < 20 ? 'var(--accent)' : 'var(--warning)'}">${p.total?.toFixed(2)}</div>
+            <div style="font-size:10px;color:var(--text-dim)">ct/kWh</div>
+          </div>
+        `).join('')}
+      </div>
+    `;
+  } catch (e) {
+    el.innerHTML = `<div class="alert alert-error">Fout: ${e.message}</div>`;
+  }
+}
+
+// ── SETTINGS ─────────────────────────────────────────────
+async function saveSettings() {
+  API = document.getElementById('setting-url').value;
+  localStorage.setItem('evi_api_url', API);
+  document.getElementById('backend-url').textContent = API.replace('http://', '');
+  await checkStatus();
+  toast('Instellingen opgeslagen', 'success');
+}
+
+// ── CACHE HELPERS ────────────────────────────────────────
+async function loadZonesCache() {
+  if (!zonesCache.length) zonesCache = await api("/zones/").catch(() => []);
+}
+
+async function loadLeveranciersCache() {
+  if (!leveranciersCache.length) leveranciersCache = await api("/leveranciers/").catch(() => []);
+}
+
+// ── INIT ─────────────────────────────────────────────────
+document.getElementById('setting-url').value = API;
+checkStatus();
+setInterval(checkStatus, 30000);
+loadDashboard();
+</script>
+</body>
+</html>

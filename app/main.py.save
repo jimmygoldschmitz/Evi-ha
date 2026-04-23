@@ -1,0 +1,67 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""EVI Backend - Energy Value Integration API Server."""
+from __future__ import annotations
+
+import json
+import logging
+import os
+from pathlib import Path
+
+from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+
+from database import Database
+from routers import contracts, zip_data, prices
+
+logging.basicConfig(level=logging.INFO)
+_LOGGER = logging.getLogger(__name__)
+
+app = FastAPI(
+    title="EVI - Energy Value Integration API",
+    description="Backend API voor EVI Home Assistant integratie",
+    version="1.0.0",
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Database instantie
+db = Database()
+
+@app.on_event("startup")
+async def startup():
+    """Initialiseer database en laad seed data."""
+    _LOGGER.info("EVI Backend opstarten...")
+    await db.init()
+    await db.seed_if_empty()
+    _LOGGER.info("EVI Backend klaar!")
+
+# Routers registreren
+app.include_router(contracts.router, prefix="/contract", tags=["Contracten"])
+app.include_router(zip_data.router, prefix="/zip", tags=["Postcode"])
+app.include_router(prices.router, prefix="/prices", tags=["Prijzen"])
+
+@app.get("/")
+async def root():
+    return {"name": "EVI Backend", "version": "1.0.0", "status": "ok"}
+
+@app.get("/health")
+async def health():
+    return {"status": "ok"}
