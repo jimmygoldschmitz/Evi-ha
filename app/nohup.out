@@ -2272,3 +2272,217 @@ INFO:     94.110.89.88:59720 - "GET /health HTTP/1.1" 200 OK
 INFO:     94.110.89.88:59721 - "GET /health HTTP/1.1" 200 OK
 INFO:     94.110.89.88:59729 - "GET /health HTTP/1.1" 200 OK
 INFO:     94.110.89.88:59738 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59739 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59742 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59744 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59747 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59748 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59757 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59766 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59773 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59785 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59792 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59807 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59808 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59817 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59818 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59819 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59821 - "OPTIONS /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59819 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59820 - "OPTIONS /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59823 - "OPTIONS /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59822 - "OPTIONS /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59821 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59819 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59820 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59824 - "GET /health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [39113]
+INFO:     Started server process [39393]
+INFO:     Waiting for application startup.
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (6 leveranciers)
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     94.110.89.88:59827 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59828 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59827 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59831 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59830 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59829 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59832 - "GET /gas_contract/ HTTP/1.1" 404 Not Found
+INFO:     94.110.89.88:59833 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59834 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59835 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59838 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59839 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59840 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59876 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59884 - "GET /health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [39393]
+INFO:     Started server process [39483]
+INFO:     Waiting for application startup.
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (6 leveranciers)
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     178.104.251.139:59312 - "GET /gas_contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59885 - "GET /health HTTP/1.1" 200 OK
+INFO:     178.104.251.139:48980 - "GET /health HTTP/1.1" 200 OK
+INFO:     178.104.251.139:48996 - "GET /gas_contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59886 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59886 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59886 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59888 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59889 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59887 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59890 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59886 - "GET /gas_contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59891 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59892 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59893 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59894 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59895 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59896 - "GET /health HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [39483]
+INFO:     Started server process [39512]
+INFO:     Waiting for application startup.
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (6 leveranciers)
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     94.110.89.88:59897 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59899 - "GET /admin/index.html HTTP/1.1" 304 Not Modified
+INFO:     94.110.89.88:59900 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59901 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59901 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59901 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59901 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59902 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59902 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59902 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59902 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59902 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [39512]
+INFO:     Started server process [39532]
+INFO:     Waiting for application startup.
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (6 leveranciers)
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     94.110.89.88:59904 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59904 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [39532]
+INFO:     Started server process [39542]
+INFO:     Waiting for application startup.
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (6 leveranciers)
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+WARNING:  Invalid HTTP request received.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [39542]
+INFO:     Started server process [39553]
+INFO:     Waiting for application startup.
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (6 leveranciers)
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     94.110.89.88:59907 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59907 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59907 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59907 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59907 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59907 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59907 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59907 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59908 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59908 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59908 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59908 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59908 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59908 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59908 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59908 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59908 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59908 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59908 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59908 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59908 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59908 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59908 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [39553]
+INFO:     Started server process [39571]
+INFO:     Waiting for application startup.
+INFO:database:Database tabellen aangemaakt
+INFO:database:Database al gevuld (6 leveranciers)
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:5001 (Press CTRL+C to quit)
+INFO:     94.110.89.88:59932 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59932 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59934 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59935 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59933 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59936 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59937 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59937 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59937 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59937 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59937 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59937 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: GET https://epexpredictor.smartenergycontrol.be/prices?hours=-1&fixedPrice=0&taxPercent=0&country=BE&evaluation=true&unit=CT_PER_KWH&timezone=Europe%2FBrussels "HTTP/1.1 200 OK"
+INFO:     94.110.89.88:59937 - "GET /epex_live HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59938 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59939 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59940 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59941 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59942 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59943 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59947 - "OPTIONS /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59945 - "OPTIONS /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59944 - "OPTIONS /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59946 - "OPTIONS /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59943 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59947 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59945 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59944 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59946 - "OPTIONS /gas_contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59943 - "GET /gas_contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59948 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59949 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59950 - "GET /admin/index.html HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59950 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59951 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59952 - "GET /zones/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59954 - "GET /postcodes/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59953 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59950 - "GET /gas_contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59955 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59956 - "GET /contract/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59956 - "GET /leveranciers/ HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59956 - "GET /contract/ENGIE-DYN HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59957 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59958 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59959 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59960 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59972 - "GET /health HTTP/1.1" 200 OK
+INFO:     94.110.89.88:59973 - "GET /health HTTP/1.1" 200 OK

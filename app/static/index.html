@@ -422,6 +422,7 @@
     <a onclick="showPage('zones')">🗺️ Fluvius Zones</a>
     <a onclick="showPage('postcodes')">📮 Postcodes</a>
     <a onclick="showPage('leveranciers')">🏢 Leveranciers</a>
+    <a onclick="showPage('gas')">🔥 Gas Contracten</a>
 
     <div class="section-label">Tools</div>
     <a onclick="showPage('test')">🔬 Prijs testen</a>
@@ -603,6 +604,22 @@
     </div>
 
     <!-- TEST -->
+    <div class="page" id="page-gas">
+      <div class="page-header">
+        <div>
+          <div class="page-title">GAS CONTRACTEN</div>
+          <div class="page-subtitle">Beheer gas contracten per leverancier</div>
+        </div>
+        <button class="btn btn-primary" onclick="openGasModal()">+ Nieuw gas contract</button>
+      </div>
+      <div class="card">
+        <table>
+          <thead><tr><th>ID</th><th>Naam</th><th>Prijs (€/kWh)</th><th>Formule</th><th>Acties</th></tr></thead>
+          <tbody id="gas-table"><tr><td colspan="5" style="text-align:center;color:var(--text-dim)">Laden...</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+
     <div class="page" id="page-test">
       <div class="page-header">
         <div>
@@ -949,7 +966,7 @@ function showPage(page) {
   document.getElementById('page-' + page).classList.add('active');
   event.currentTarget.classList.add('active');
   
-  const loaders = { dashboard: loadDashboard, contracts: loadContracts, zones: loadZones, postcodes: loadPostcodes, leveranciers: loadLeveranciers };
+  const loaders = { dashboard: loadDashboard, contracts: loadContracts, zones: loadZones, postcodes: loadPostcodes, leveranciers: loadLeveranciers, gas: loadGasContracts };
   if (loaders[page]) loaders[page]();
 }
 
@@ -1495,6 +1512,104 @@ document.getElementById('setting-url').value = API;
 checkStatus();
 setInterval(checkStatus, 30000);
 loadDashboard();
+
+  let currentGasId = null;
+
+  async function loadGasContracts() {
+    try {
+      const data = await api('/gas_contract/');
+      const tbody = document.getElementById('gas-table');
+      if (!data.length) { tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;color:var(--text-dim)">Geen gas contracten</td></tr>'; return; }
+      tbody.innerHTML = data.map(g => `<tr>
+        <td style="font-family:var(--mono);color:var(--accent)">${g.id}</td>
+        <td>${g.naam}</td>
+        <td style="font-family:var(--mono)">${g.prijs ?? '—'}</td>
+        <td style="font-size:11px;color:var(--text-dim)">${g.formule || '—'}</td>
+        <td><button class="btn btn-secondary" style="padding:4px 10px;font-size:12px" onclick="openGasModal('${g.id}')">✏️</button></td>
+      </tr>`).join('');
+    } catch(e) {
+      document.getElementById('gas-table').innerHTML = '<tr><td colspan="5" style="text-align:center;color:var(--danger)">Fout: ' + e.message + '</td></tr>';
+    }
+  }
+
+  function openGasModal(id=null) {
+    currentGasId = id;
+    document.getElementById('gas-modal-title').textContent = id ? 'GAS CONTRACT BEWERKEN' : 'NIEUW GAS CONTRACT';
+    document.getElementById('g-delete-btn').style.display = id ? 'block' : 'none';
+    ['g-id','g-naam','g-prijs','g-formule'].forEach(f => { const el = document.getElementById(f); if(el) el.value = ''; });
+    document.getElementById('g-id').readOnly = !!id;
+    const sel = document.getElementById('g-leverancier');
+    sel.innerHTML = leveranciersCache.map(l => `<option value="${l.id}">${l.naam}</option>`).join('');
+    openModal('modal-gas');
+  }
+
+  async function saveGasContract() {
+    const data = {
+      id: document.getElementById('g-id').value.trim(),
+      naam: document.getElementById('g-naam').value.trim(),
+      leverancier_id: parseInt(document.getElementById('g-leverancier').value) || null,
+      prijs: parseFloat(document.getElementById('g-prijs').value) || 0,
+      formule: document.getElementById('g-formule').value.trim() || null,
+    };
+    try {
+      const method = currentGasId ? 'PUT' : 'POST';
+      const url = currentGasId ? `/gas_contract/${currentGasId}` : '/gas_contract/';
+      const res = await fetch(API + url, { method, headers: {'Content-Type':'application/json'}, body: JSON.stringify(data) });
+      if (!res.ok) throw new Error(await res.text());
+      closeModal('modal-gas');
+      loadGasContracts();
+      showToast('Gas contract opgeslagen!');
+    } catch(e) { showToast('Fout: ' + e.message, true); }
+  }
+
+  async function deleteGasContract() {
+    if (!confirm('Gas contract verwijderen?')) return;
+    await fetch(API + `/gas_contract/${currentGasId}`, {method:'DELETE'});
+    closeModal('modal-gas');
+    loadGasContracts();
+    showToast('Verwijderd!');
+  }
+
 </script>
+
+<div class="modal-overlay" id="modal-gas">
+  <div class="modal" style="width:480px">
+    <div class="modal-header">
+      <div class="modal-title" id="gas-modal-title">GAS CONTRACT</div>
+      <button class="modal-close" onclick="closeModal('modal-gas')">×</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Contract ID *</label>
+          <input type="text" class="form-control" id="g-id" placeholder="bv. ENGIE-GAS">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Naam *</label>
+          <input type="text" class="form-control" id="g-naam" placeholder="bv. Engie Gas">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Leverancier</label>
+          <select class="form-control" id="g-leverancier"></select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Prijs (€/kWh)</label>
+          <input type="number" class="form-control" id="g-prijs" step="0.00001" placeholder="0.065">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Formule (optioneel)</label>
+        <input type="text" class="form-control" id="g-formule" placeholder="contract.prijs">
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-secondary" onclick="closeModal('modal-gas')">Annuleren</button>
+      <button class="btn btn-danger" id="g-delete-btn" onclick="deleteGasContract()" style="display:none">Verwijderen</button>
+      <button class="btn btn-primary" onclick="saveGasContract()">Opslaan</button>
+    </div>
+  </div>
+</div>
 </body>
 </html>
