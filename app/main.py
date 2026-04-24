@@ -36,16 +36,19 @@ async def health():
     return {"status": "ok"}
 
 @app.get("/day_ahead")
-async def get_day_ahead(token: str):
-    headers = {"Authorization": f"Bearer {token}"}
-    async with httpx.AsyncClient(timeout=15) as client:
-        resp = await client.get("https://api-dev.smartenergycontrol.be/resource/day_ahead", headers=headers)
-        return resp.json()
+async def get_day_ahead(token: str = None):
+    try:
+        async with httpx.AsyncClient(timeout=15) as client:
+            resp = await client.get("https://epexpredictor.smartenergycontrol.be/prices?hours=48&fixedPrice=0&taxPercent=0&country=BE&evaluation=false&unit=CT_PER_KWH&timezone=Europe%2FBrussels")
+            data = resp.json()
+            return [{"start": i["startsAt"], "end": i["startsAt"], "price": round(i["total"], 4), "position": n+1} for n, i in enumerate(data.get("prices", []))]
+    except Exception as e:
+        return {"error": str(e)}
 
 @app.get("/epex_live")
 async def get_epex_live():
     async with httpx.AsyncClient(timeout=15) as client:
-        resp = await client.get("https://epexpredictor.smartenergycontrol.be/prices?hours=-1&fixedPrice=0&taxPercent=0&country=BE&evaluation=true&unit=CT_PER_KWH&timezone=Europe%2FBrussels")
+        resp = await client.get("https://api-dev.smartenergycontrol.be/resource/day_ahead")
         return resp.json()
 
 @app.get("/merged_full/{contract_id}")
